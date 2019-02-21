@@ -3,7 +3,7 @@
 Stop the local dev environment
 
 ## Usage
-`app:localdev:stop [options]`
+`northstack app:localdev:stop [options]`
 
 ## Options
 * **-e, --env=ENV**
