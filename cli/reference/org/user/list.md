@@ -1,7 +1,7 @@
 # org:user:list
 
 ## Usage
-`org:user:list [options]`
+`northstack org:user:list [options]`
 
 ## Options
 * **--authToken=AUTHTOKEN**

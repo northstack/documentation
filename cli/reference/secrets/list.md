@@ -1,7 +1,7 @@
 # secrets:list
 
 ## Usage
-`secrets:list [options] [--] [<environment>]`
+`northstack secrets:list [options] [--] [<environment>]`
 
 ## Arguments
 * **environment**

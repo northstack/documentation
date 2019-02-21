@@ -1,7 +1,7 @@
 # app:deploy
 
 ## Usage
-`app:deploy [options] [--] <title> <name> <environment>`
+`northstack app:deploy [options] [--] <title> <name> <environment>`
 
 ## Arguments
 * **title**

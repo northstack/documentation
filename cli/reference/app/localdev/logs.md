@@ -2,7 +2,7 @@
 View logs from the local dev environment
 
 ## Usage
-`app:localdev:logs [options]`
+`northstack app:localdev:logs [options]`
 
 ## Options
 * **-e, --env=ENV**

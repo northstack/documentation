@@ -1,7 +1,7 @@
 # secrets:set
 
 ## Usage
-`secrets:set [options] [--] <key> <value> [<environment>]`
+`northstack secrets:set [options] [--] <key> <value> [<environment>]`
 
 ## Arguments
 * **key**

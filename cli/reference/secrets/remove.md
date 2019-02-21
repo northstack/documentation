@@ -1,7 +1,7 @@
 # secrets:remove
 
 ## Usage
-`secrets:remove [options] [--] <key> [<environment>]`
+`northstack secrets:remove [options] [--] <key> [<environment>]`
 
 ## Arguments
 * **key**

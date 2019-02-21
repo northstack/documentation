@@ -3,7 +3,7 @@
 Start the local dev environment
 
 ## Usage
-`app:localdev:start [options]`
+`northstack app:localdev:start [options]`
 
 ## Options
 * **-e, --env=ENV**

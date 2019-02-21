@@ -1,7 +1,7 @@
 # org:list
 
 ## Usage
-`org:list`
+`northstack org:list`
 
 ## Options
 * **-h, --help**

@@ -2,7 +2,7 @@
 Show details about an App
 
 ## Usage
-`app:info [options] [--] <name> <environment>`
+`northstack app:info [options] [--] <name> <environment>`
 
 ## Arguments
 * **name**

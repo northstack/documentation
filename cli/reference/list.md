@@ -1,7 +1,7 @@
 # list
 
 ## Usage
-`list [options] [--] [<namespace>]`
+`northstack list [options] [--] [<namespace>]`
 
 ## Arguments
 * **namespace**

@@ -1,7 +1,7 @@
 # signup:reverify
 
 ## Usage
-`signup:reverify [options] [--] <orgId>`
+`northstack signup:reverify [options] [--] <orgId>`
 
 ## Arguments
 * **orgId**

@@ -1,7 +1,7 @@
 # signup:verify
 
 ## Usage
-`signup:verify [options] [--] <code>`
+`northstack signup:verify [options] [--] <code>`
 
 ## Arguments
 * **code**

@@ -3,7 +3,7 @@
 List Northstack Apps
 
 ## Usage
-`app:list [options]`
+`northstack app:list [options]`
 
 ## Options
 * **--authToken=AUTHTOKEN**

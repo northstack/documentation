@@ -1,7 +1,7 @@
 # app:localdev:run
 
 ## Usage
-`app:localdev:run [options] [--] [<run>]`
+`northstack app:localdev:run [options] [--] [<run>]`
 
 ## Arguments
 * **run**

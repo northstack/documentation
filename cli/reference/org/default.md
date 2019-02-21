@@ -1,7 +1,7 @@
 # org:default
 
 ## Usage
-`org:default [options]`
+`northstack org:default [options]`
 
 ## Options
 * **--org=ORG**

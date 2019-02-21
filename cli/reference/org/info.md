@@ -1,7 +1,7 @@
 # org:info
 
 ## Usage
-`org:info [options]`
+`northstack org:info [options]`
 
 ## Options
 * **--authToken=AUTHTOKEN**

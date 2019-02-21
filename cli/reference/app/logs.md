@@ -3,7 +3,7 @@
 NorthStack App Logs
 
 ## Usage
-`app:logs [options] [--] <name> <environment> <topic>`
+`northstack app:logs [options] [--] <name> <environment> <topic>`
 
 ## Arguments
 * **name**

@@ -1,7 +1,7 @@
 # help
 
 ## Usage
-`help [options] [--] <command> [<command_name>]`
+`northstack help [options] [--] <command> [<command_name>]`
 
 ## Arguments
 * **command**

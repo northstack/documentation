@@ -1,7 +1,7 @@
 # _completion
 
 ## Usage
-`_completion [options]`
+`northstack _completion [options]`
 
 ## Options
 * **-g, --generate-hook**
