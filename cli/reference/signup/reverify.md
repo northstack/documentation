@@ -1,5 +1,7 @@
 # signup:reverify
 
+Re-requests a NorthStack signup phone verification text message.
+
 ## Usage
 `northstack signup:reverify [options] [--] <orgId>`
 

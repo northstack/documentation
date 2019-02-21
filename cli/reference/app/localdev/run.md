@@ -1,5 +1,7 @@
 # app:localdev:run
 
+Runs a docker-compose command.
+
 ## Usage
 `northstack app:localdev:run [options] [--] [<run>]`
 

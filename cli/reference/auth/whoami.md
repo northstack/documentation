@@ -1,5 +1,7 @@
 # auth:whoami
 
+Displays details about the currently logged in user.
+
 ## Usage
 `northstack auth:whoami [options]`
 

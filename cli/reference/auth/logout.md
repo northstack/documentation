@@ -1,5 +1,7 @@
 # auth:logout
 
+Logs out of a NorthStack account.
+
 ## Usage
 `northstack auth:logout`
 

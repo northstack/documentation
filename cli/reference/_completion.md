@@ -1,5 +1,7 @@
 # _completion
 
+Enables the NorthStack auto-completion bash hook.
+
 ## Usage
 `northstack _completion [options]`
 

@@ -1,5 +1,7 @@
 # app:create
 
+Creates a new NorthStack app.
+
 ## Usage
 `northstack app:create [options] [--] <name> <primaryDomain>`
 

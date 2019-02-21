@@ -1,6 +1,6 @@
 # app:logs
 
-NorthStack App Logs
+Displays the logs for a NorthStack app.
 
 ## Usage
 `northstack app:logs [options] [--] <name> <environment> <topic>`

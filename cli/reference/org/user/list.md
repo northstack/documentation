@@ -1,5 +1,7 @@
 # org:user:list
 
+Lists all users within an organization.
+
 ## Usage
 `northstack org:user:list [options]`
 

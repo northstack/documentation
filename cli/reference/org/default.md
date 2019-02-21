@@ -1,5 +1,7 @@
 # org:default
 
+Gets or sets the default organization for client commands.
+
 ## Usage
 `northstack org:default [options]`
 

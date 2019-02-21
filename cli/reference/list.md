@@ -1,5 +1,7 @@
 # list
 
+Lists all commands available within a namespace for the NorthStack CLI.
+
 ## Usage
 `northstack list [options] [--] [<namespace>]`
 

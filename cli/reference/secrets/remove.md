@@ -1,5 +1,7 @@
 # secrets:remove
 
+Removes an app secret.
+
 ## Usage
 `northstack secrets:remove [options] [--] <key> [<environment>]`
 

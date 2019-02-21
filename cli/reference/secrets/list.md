@@ -1,5 +1,7 @@
 # secrets:list
 
+Lists app secrets.
+
 ## Usage
 `northstack secrets:list [options] [--] [<environment>]`
 

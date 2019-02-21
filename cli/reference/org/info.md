@@ -1,5 +1,7 @@
 # org:info
 
+Shows details about an organization.
+
 ## Usage
 `northstack org:info [options]`
 

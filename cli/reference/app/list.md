@@ -1,6 +1,6 @@
 # app:list
 
-List Northstack Apps
+Lists all NorthStack apps.
 
 ## Usage
 `northstack app:list [options]`

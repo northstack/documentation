@@ -1,6 +1,6 @@
 # app:localdev:start
 
-Start the local dev environment
+Starts the local development environment.
 
 ## Usage
 `northstack app:localdev:start [options]`

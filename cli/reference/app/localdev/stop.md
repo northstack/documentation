@@ -1,6 +1,6 @@
 # app:localdev:stop
 
-Stop the local dev environment
+Stops the local development environment.
 
 ## Usage
 `northstack app:localdev:stop [options]`

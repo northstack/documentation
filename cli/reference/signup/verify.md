@@ -1,5 +1,7 @@
 # signup:verify
 
+Verifies a NorthStack signup phone verification text message.
+
 ## Usage
 `northstack signup:verify [options] [--] <code>`
 

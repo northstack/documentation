@@ -1,5 +1,9 @@
 # auth:client-login
 
+Logs into NorthStack using a client ID and secret, then saves the access token.
+
+Additional options can be provided to show the access token instead of saving it.
+
 ## Uage
 `northstack auth:client-login [options] [--] <clientId> <clientSecret>`
 

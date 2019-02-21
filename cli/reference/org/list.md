@@ -1,5 +1,7 @@
 # org:list
 
+Lists all local organizations.
+
 ## Usage
 `northstack org:list`
 

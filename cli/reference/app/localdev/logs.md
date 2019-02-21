@@ -1,5 +1,6 @@
 # app:localdev:logs
-View logs from the local dev environment
+
+Views logs from the local development environment.
 
 ## Usage
 `northstack app:localdev:logs [options]`

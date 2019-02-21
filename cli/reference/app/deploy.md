@@ -1,5 +1,7 @@
 # app:deploy
 
+Deploys a NorthStack app.
+
 ## Usage
 `northstack app:deploy [options] [--] <title> <name> <environment>`
 

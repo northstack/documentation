@@ -1,5 +1,9 @@
 # auth:login
 
+Logs into NorthStack and saves the access token.
+
+Additional options can be passed to just show the access token instead of saving it.
+
 ## Usage
 `northstack auth:login [options] [--] [<username>]`
 

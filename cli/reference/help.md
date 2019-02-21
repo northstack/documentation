@@ -1,5 +1,7 @@
 # help
 
+Displays help content for the NorthStack CLI.
+
 ## Usage
 `northstack help [options] [--] <command> [<command_name>]`
 

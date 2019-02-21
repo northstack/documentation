@@ -1,5 +1,7 @@
 # signup
 
+Signs up for a NorthStack account.
+
 ## Usage
 `northstack signup`
 

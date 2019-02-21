@@ -1,5 +1,7 @@
 # auth:enable-2fa
 
+Enables 2-factor authentication on a NorthStack account.
+
 ## Usage
 `northstack auth:enable-2fa [options]`
 

@@ -1,6 +1,10 @@
 # app:debug:launch-worker
 
-NorthStack will launch additional workers for you as needed.  This command can be used for debugging, or to prime additional capacity.  Note that unused capacity will shut off after the inactivity period.
+Launches an additional NorthStack worker.
+
+NorthStack will launch additional workers for you as needed.  This command can be used for debugging, or to prime additional capacity.
+
+Note that unused capacity will shut off after the inactivity period.
 
 ## Usage
 `northstack app:debug:launch-worker [options] [--] <name> <environment>`

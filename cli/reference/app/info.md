@@ -1,5 +1,6 @@
 # app:info
-Show details about an App
+
+Shows details about a NorthStack app.
 
 ## Usage
 `northstack app:info [options] [--] <name> <environment>`

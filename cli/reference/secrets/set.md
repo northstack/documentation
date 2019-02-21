@@ -1,5 +1,7 @@
 # secrets:set
 
+Sets an app secret.
+
 ## Usage
 `northstack secrets:set [options] [--] <key> <value> [<environment>]`
 
