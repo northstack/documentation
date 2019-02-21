@@ -12,23 +12,23 @@ Additional options can be provided to show the access token instead of saving it
 * **clientSecret**
 
 ## Options
-* **--scope=SCOPE**
+* **--scope=SCOPE**  
   Scope keys (multiple values allowed)
-* **-s, --show**
+* **-s, --show**  
   Just show the token, do not save it!
-* **-h, --help**
+* **-h, --help**  
   Display this help message
-* **-q, --quiet**
+* **-q, --quiet**  
   Do not output any message
-* **-V, --version**
+* **-V, --version**  
   Display this application version
-* **--ansi**
+* **--ansi**  
   Force ANSI output
-* **--no-ansi**
+* **--no-ansi**  
   Disable ANSI output
-* **-n, --no-interaction**
+* **-n, --no-interaction**  
   Do not ask any interactive question
-* **--no-time-limit**
+* **--no-time-limit**  
   Prevent the command from ending at the regular time limit
-* **-v|vv|vvv, --verbose**
+* **-v|vv|vvv, --verbose**  
   Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug)

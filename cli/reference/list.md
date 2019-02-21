@@ -6,11 +6,11 @@ Lists all commands available within a namespace for the NorthStack CLI.
 `northstack list [options] [--] [<namespace>]`
 
 ## Arguments
-* **namespace**
+* **namespace**  
   The namespace name
 
 ## Options
-* **--raw**
+* **--raw**  
   To output raw command list
-* **--format=FORMAT**
+* **--format=FORMAT**  
   The output format (txt, xml, json, or md) [default: "txt"]

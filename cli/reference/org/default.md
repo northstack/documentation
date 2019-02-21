@@ -6,21 +6,21 @@ Gets or sets the default organization for client commands.
 `northstack org:default [options]`
 
 ## Options
-* **--org=ORG**
+* **--org=ORG**  
   Org name (or ID) to run this command as
-* **-h, --help**
+* **-h, --help**  
   Display this help message
-* **-q, --quiet**
+* **-q, --quiet**  
   Do not output any message
-* **-V, --version**
+* **-V, --version**  
   Display this application version
-* **--ansi**
+* **--ansi**  
   Force ANSI output
-* **--no-ansi**
+* **--no-ansi**  
   Disable ANSI output
-* **-n, --no-interaction**
+* **-n, --no-interaction**  
   Do not ask any interactive question
-* **--no-time-limit**
+* **--no-time-limit**  
   Prevent the command from ending at the regular time limit
-* **-v|vv|vvv, --verbose**
+* **-v|vv|vvv, --verbose**  
   Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug)

@@ -6,45 +6,45 @@ Creates a new NorthStack app.
 `northstack app:create [options] [--] <name> <primaryDomain>`
 
 ## Arguments
-* **name**
+* **name**  
   The name of the app to create.
-* **primaryDomain**
+* **primaryDomain**  
   The primary domain to associate with the new app.
 
 ## Options
-* **--cluster=CLUSTER**
+* **--cluster=CLUSTER**  
   Deployment location [default: "dev-us-east-1"]
-* **--orgId=ORGID**
+* **--orgId=ORGID**  
   Only needed if you have access to multiple organizations
-* **--stack=STACK**
+* **--stack=STACK**  
   Application stack type (one of: [wordpress, static]) [default: "wordpress"]
-* **--authToken=AUTHTOKEN**
+* **--authToken=AUTHTOKEN**  
   Access Token
-* **--authClientId=AUTHCLIENTID**
+* **--authClientId=AUTHCLIENTID**  
   OAuth Client ID [default: 2]
-* **--authClientSecret=AUTHCLIENTSECRET**
+* **--authClientSecret=AUTHCLIENTSECRET**  
   Client Secret
-* **--authUsername=AUTHUSERNAME**
+* **--authUsername=AUTHUSERNAME**  
   Username
-* **--authPassword=AUTHPASSWORD**
+* **--authPassword=AUTHPASSWORD**  
   Password
-* **--authMfa=AUTHMFA**
+* **--authMfa=AUTHMFA**  
   MFA Code
-* **--authScope=AUTHSCOPE**
+* **--authScope=AUTHSCOPE**  
   Scopes (multiple values allowed)
-* **-h, --help**
+* **-h, --help**  
   Display this help message
-* **-q, --quiet**
+* **-q, --quiet**  
   Do not output any message
-* **-V, --version**
+* **-V, --version**  
   Display this application version
-* **--ansi**
+* **--ansi**  
   Force ANSI output
-* **--no-ansi**
+* **--no-ansi**  
   Disable ANSI output
-* **-n, --no-interaction**
+* **-n, --no-interaction**  
   Do not ask any interactive question
-* **--no-time-limit**
+* **--no-time-limit**  
   Prevent the command from ending at the regular time limit
-* **-v|vv|vvv, --verbose**
+* **-v|vv|vvv, --verbose**  
   Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug)

@@ -6,29 +6,29 @@ Displays help content for the NorthStack CLI.
 `northstack help [options] [--] <command> [<command_name>]`
 
 ## Arguments
-* **command**
+* **command**  
   The command to execute
-* **command_name**
+* **command_name**  
   The command name [default: "help"]
 
 ## Options
-* **--format=FORMAT**
+* **--format=FORMAT**  
   The output format (txt, xml, json, or md) [default: "txt"]
-* **--raw**
+* **--raw**  
   To output raw command help
-* **-h, --help**
+* **-h, --help**  
   Display this help message
-* **-q, --quiet**
+* **-q, --quiet**  
   Do not output any message
-* **-V, --version**
+* **-V, --version**  
   Display this application version
-* **--ansi**
+* **--ansi**  
   Force ANSI output
-* **--no-ansi**
+* **--no-ansi**  
   Disable ANSI output
-* **-n, --no-interaction**
+* **-n, --no-interaction**  
   Do not ask any interactive question
-* **--no-time-limit**
+* **--no-time-limit**  
   Prevent the command from ending at the regular time limit
-* **-v|vv|vvv, --verbose**
+* **-v|vv|vvv, --verbose**  
   Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug)

@@ -6,45 +6,45 @@ Displays the logs for a NorthStack app.
 `northstack app:logs [options] [--] <name> <environment> <topic>`
 
 ## Arguments
-* **name**
+* **name**  
   App name
-* **environment**
+* **environment**  
   Environment (prod, test, or dev)
-* **topic**
+* **topic**  
   Log type (access, error, build)
 
 ## Options
-* **-t, --topicOverride=TOPICOVERRIDE**
+* **-t, --topicOverride=TOPICOVERRIDE**  
   Override Topic (You should know what you are doing if you are using this)
-* **--json**
+* **--json**  
   Output raw json
-* **--authToken=AUTHTOKEN**
+* **--authToken=AUTHTOKEN**  
   Access Token
-* **--authClientId=AUTHCLIENTID**
+* **--authClientId=AUTHCLIENTID**  
   OAuth Client ID [default: 2]
-* **--authClientSecret=AUTHCLIENTSECRET**
+* **--authClientSecret=AUTHCLIENTSECRET**  
   Client Secret
-* **--authUsername=AUTHUSERNAME**
+* **--authUsername=AUTHUSERNAME**  
   Username
-* **--authPassword=AUTHPASSWORD**
+* **--authPassword=AUTHPASSWORD**  
   Password
-* **--authMfa=AUTHMFA**
+* **--authMfa=AUTHMFA**  
   MFA Code
-* **--authScope=AUTHSCOPE**
+* **--authScope=AUTHSCOPE**  
   Scopes (multiple values allowed)
-* **-h, --help**
+* **-h, --help**  
   Display this help message
-* **-q, --quiet**
+* **-q, --quiet**  
   Do not output any message
-* **-V, --version**
+* **-V, --version**  
   Display this application version
-* **--ansi**
+* **--ansi**  
   Force ANSI output
-* **--no-ansi**
+* **--no-ansi**  
   Disable ANSI output
-* **-n, --no-interaction**
+* **-n, --no-interaction**  
   Do not ask any interactive question
-* **--no-time-limit**
+* **--no-time-limit**  
   Prevent the command from ending at the regular time limit
-* **-v|vv|vvv, --verbose**
+* **-v|vv|vvv, --verbose**  
   Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug)
