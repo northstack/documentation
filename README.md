@@ -4,14 +4,13 @@ NorthStack is a hosting platform that allows you to leverage the amazing power a
 
 ## Popular Topics
 
-* [Getting Started]()
+* [Getting Started](/getting-started.md)
 * [Managing Apps]()
-* [NorthStack CLI]()
-* [FAQs]()
+* [NorthStack CLI](/cli/)
+* [FAQs](/faqs/)
 
 ## Platforms
 
-* [WordPress]()
-* [Laravel]()
-* [NodeJS]()
-* [Jekyll]()
+* [WordPress](/wordpress/)
+* [Laravel](/laravel/)
+* [Jekyll](/jekyll/)
