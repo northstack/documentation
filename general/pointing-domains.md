@@ -11,8 +11,10 @@ To point your domain to your NorthStack app, you'll need to get your app's hostn
    ```shell
    northstack app:info MyExampleSite prod
    ```
-3. Locate the value of the **Domains** field. It should look something like:\
-   `ns-xxxxxxxxxxxxxx.dev-us-east-1-northstack.com`
+3. Locate the value of the **Domains** field. It should look something like:
+   ```shell
+   ns-xxxxxxxxxxxxxx.dev-us-east-1-northstack.com
+   ```
 
 You how have your app's hostname that you will use for your CNAME record at your DNS provider.
 
