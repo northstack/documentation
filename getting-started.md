@@ -24,13 +24,13 @@ Thanks to the NorthStack CLI, you'll be able to get more done without ever leavi
 
 3. Access the directory that you just cloned:
    
-   ```shell
+    ```shell
     cd northstack-client
     ```
 
 4. Run the NorthStack CLI installer:
    
-   ```shell
+    ```shell
     ./bin/install.sh
     ```
 
