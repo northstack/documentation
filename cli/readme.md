@@ -4,7 +4,8 @@ In this section, you'll find information on using the NorthStack CLI to manage y
 
 ## Helpful Resources
 
-* NorthStack CLI Reference
+* [Installing the NorthStack CLI on MacOS](/cli/macos.md)
+* [NorthStack CLI Reference](/cli/reference/)
 
 ## Common Commands
 
