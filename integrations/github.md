@@ -15,6 +15,7 @@ If you're using GitHub for maintaining changes to your site, you can speed up yo
 5. After selecting permissions, you'll be sent back to the *Integrations* page within your NorthStack Console. Inside this page, you'll be asked to **enter your GitHub Organization name**. Enter the name of the organization or user that you authenticated with earlier.
    ![NorthStack Console Enter GitHub Organization Name](/_assets/images/github-integration/enter-github-organization.png)
 6. Inside the **Create New Configuration** section, select the repository and branch that you want to deploy your code from. Then, select the app and environment that you want to deploy to.
+   ![Configure GitHub Deployment Source Target](/_assets/images/github-integration/configurations.png)
 7. Once your settings are configured, click on the **Add Configuration** button to save your settings.
 
 ## Testing Your Deployments
