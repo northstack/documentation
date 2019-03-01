@@ -17,14 +17,19 @@ Thanks to the NorthStack CLI, you'll be able to get more done without ever leavi
 
 1. Begin by opening a terminal window.
 2. Next, clone the NorthStack CLI with Git:
+
     ```shell
     git clone https://github.com/northstack/northstack-client.git
-    ````
+    ```
+
 3. Access the directory that you just cloned:
+   
    ```shell
     cd northstack-client
     ```
+
 4. Run the NorthStack CLI installer:
+   
    ```shell
     ./bin/install.sh
     ```
