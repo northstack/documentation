@@ -19,5 +19,4 @@ Currently, NorthStack supports the following:
 
 * Static HTML
 * WordPress
-* Laravel
 * Jekyll
