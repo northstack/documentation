@@ -2,7 +2,7 @@
 
 Need to update your NorthStack app to the next major WordPress version? Here's how to do it.
 
-1. Begin by locating the local directory for your NorthStack app.
+1. Begin by locating the local directory for your NorthStack app, then go into the **config** subdirectory.
 2. Next, find the **build.json** file and open it up in your favorite editor. It should look something like this:
    ```json
    {
