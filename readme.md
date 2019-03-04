@@ -5,7 +5,7 @@ NorthStack is a hosting platform that allows you to leverage the amazing power a
 ## Popular Topics
 
 * [Getting Started](/getting-started.md)
-* [Managing Apps]()
+* [Managing Apps](/account/managing-apps.md)
 * [NorthStack CLI](/cli/)
 * [FAQs](/faqs/)
 
