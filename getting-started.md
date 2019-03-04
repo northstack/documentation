@@ -49,7 +49,7 @@ northstack login
 When building NorthStack, we wanted to make it as easy as possible to create an app with multiple environments for production, development, and testing. To create a new app, use the following command:
 
 ```shell
-northstack app:create "MyAppName" "myappname.com"
+northstack app:create "MyAppName" "myappname.com" --stack=wordpress
 ```
 
 The NorthStack CLI will then prompt you for additional details about your app. Once complete, you'll be provided with additional details about your newly created app.

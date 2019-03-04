@@ -7,7 +7,7 @@ The WordPress project brags about how easy it is to install. While it is indeed 
 1. Access your terminal where you have the NorthStack CLI installed. If you haven't yet installed the NorthStack CLI, take a look at our guide on [getting started with NorthStack](/getting-started.md) for more information. 
 2. Within your terminal, enter the following command:
     ```shell
-    northstack app:create "MyAppName" "myappname.com"
+    northstack app:create "MyAppName" "myappname.com" --stack=wordpress
     ```
 3. The NorthStack CLI will now prompt you for additional information such as the site title, administrator user, and password.
 

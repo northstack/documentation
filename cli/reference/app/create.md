@@ -17,7 +17,7 @@ Creates a new NorthStack app.
 * **--orgId=ORGID**  
   Only needed if you have access to multiple organizations
 * **--stack=STACK**  
-  Application stack type (one of: [wordpress, static]) [default: "wordpress"]
+  Application stack type (one of: [wordpress, static])
 * **--authToken=AUTHTOKEN**  
   Access Token
 * **--authClientId=AUTHCLIENTID**  
