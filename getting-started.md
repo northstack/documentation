@@ -41,7 +41,7 @@ Once the installation is complete, test the `northstack` command by running `nor
 To authenticate the NorthStack CLI with your account, use the following command:
 
 ```shell
-northstack login
+northstack auth:login
 ```
 
 ## Creating a NorthStack App
