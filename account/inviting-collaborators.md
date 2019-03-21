@@ -1,6 +1,6 @@
 # Inviting Collaborators
 
-Collaborators allow you to have additional users within your NorthStack organization that can access different things within your NorthStack account. In this article, we'll show you how to invite a new collabortator to your NorthStack account.
+Collaborators allow you to have additional users within your NorthStack organization that can access different things within your NorthStack account. In this article, we'll show you how to invite a new collabortator to your NorthStack organization.
 
 ![Invite User Section](/_assets/images/add-user-section.png)
 

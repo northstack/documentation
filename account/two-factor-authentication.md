@@ -8,8 +8,8 @@ Two-factor authentication adds a slight bit more effort to log into your account
 
 There are multiple apps that you can use for configuring two-factor authentication, but here's a couple that we recommend:
 
-* [Google Authenticator](https://support.google.com/accounts/answer/1066447)
 * [Authy](https://authy.com/)
+* [Google Authenticator](https://support.google.com/accounts/answer/1066447)
 
 ## Enabling Two-Factor Authentication in NorthStack
 

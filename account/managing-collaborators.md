@@ -1,14 +1,14 @@
 # Managing Collaborators
 
-Your NorthStack account allows you to have multiple users who can make changes through the Organization Settings page. In this article, we'll show you how to manage multiple collaborators within your organization.
+Your NorthStack account allows you to have multiple users that you can manage through the Organization Settings page. In this article, we'll show you how to manage multiple collaborators within your organization.
 
 ## Adding Collaborators
 
-For more information on adding collaborators, see our artile on [adding a collaborator to your NorthStack organization](/account/inviting-collaborators.md).
+For more information on adding collaborators, see our article on [adding a collaborator to your NorthStack organization](/account/inviting-collaborators.md).
 
 ## Changing Collaborator Permissions
 
-1. Access the **Organization Settings** page within the [NorthStack Console](https://console.northstack.com).
+1. Access the **Organization Settings** page in the [NorthStack Console](https://console.northstack.com).
 2. Inside the *Organization Settings* page, you'll see a list of all users within your organization. **Click on the user** that you want to make changes to.
    
    ![Collaborator Details](/_assets/images/managing-collaborators/view-collaborators.png)
