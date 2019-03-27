@@ -20,3 +20,7 @@ Need to update your NorthStack app to the next major WordPress version? Here's h
    ```
 
 From here, all you have to do is deploy your app! Of course, always be sure to deploy to your development environment first, just to make sure you don't have any conflicts with the updated version.
+
+## Further Reading
+
+Want more information on versioning? Take a look at our article on [understanding version constraints](/general/version-constraints.md).
