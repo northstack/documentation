@@ -6,6 +6,7 @@ As you'll see in this article, getting started with NorthStack is a breeze.
 
 ## Requirements
 
+* MacOS/Linux (Windows coming soon)
 * Git
 * Docker (Latest Stable)
 * PHP (7.2+)
