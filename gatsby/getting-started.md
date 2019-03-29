@@ -6,7 +6,7 @@ In this article, we'll show you how to create, build, and deploy a static app us
 
 * A NorthStack account
 * The [NorthStack CLI](/cli/)
-* The Gatsby CLI
+* The [Gatsby CLI](/gatsby/installing-gatsby.md)
 
 ## Creating Your Gatsby App
 
