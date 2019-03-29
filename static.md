@@ -11,7 +11,7 @@ If you haven't already, you'll want to read over our Getting Started Guide that 
 To begin, let's go ahead and create a new NorthStack app. Open a new terminal window and enter the following command to create a new app with the NorthStack CLI:
 
 ```shell
-northstack app:create "MyStaticApp" "example.com" --stack=static
+northstack app:create "MyStaticApp" "example.com" static
 ```
 
 If all went well, your new static app should now be created!

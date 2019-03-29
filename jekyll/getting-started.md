@@ -14,7 +14,7 @@ Creating a new Jekyll app is easy with NorthStack. In this section, we'll show y
 2. Next, create a new static app in NorthStack by running the following NorthStack CLI command:
    
    ```shell
-   northstack app:create JekyllExample example.com --stack=static
+   northstack app:create JekyllExample example.com static
    ```
 
 3. Now that your app is created, access the location of your newly created NorthStack app:
