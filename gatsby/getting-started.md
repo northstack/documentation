@@ -24,15 +24,15 @@ In this article, we'll show you how to create, build, and deploy a static app us
     ```
 4. Since we'll be creating a new app directory using Gatsby, go ahead and delete the existing directory:
    
-   ```shell
-   rm -rf app
-   ```
+    ```shell
+    rm -rf app
+    ```
 
 5. Finally, using the Gatsby CLI, create a new Gatsby app:
    
-   ```shell
-   gatsby new app
-   ```
+    ```shell
+    gatsby new app
+    ```
 
 Your Gatsby app is now created inside the `app` directory. Your app is now ready to be built and deployed!
 
@@ -42,15 +42,15 @@ If you followed along with the previous section, you should now have a new Gatsb
 
 1. First, switch to the app directory like this:
    
-   ```shell
-   cd app
-   ```
+    ```shell
+    cd app
+    ```
 
 2. Then initiate the build process with the Gatsby CLI:
    
-   ```shell
-   gatsby build
-   ```
+    ```shell
+    gatsby build
+    ```
 
 Upon initiating the build process, the Gatsby CLI will generate your static files inside the `public` directory. Once the build has completed, you're ready to deploy your app to NorthStack!
 
