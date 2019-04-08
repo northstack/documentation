@@ -1,0 +1,127 @@
+body {
+    font-family: 'Hind', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+h2 {
+    border-bottom: 1px solid;
+    font-weight: 300;
+    font-size: 1.8em;
+}
+
+.content a {
+    color: #c8004d;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar {
+    padding: .5rem 1rem;
+    display: flex;
+    background: hsla(0,0%,100%,.05);
+}
+
+.navbar .container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.navbar-brand {
+    margin-right: 4rem;
+    flex-wrap: nowrap;
+}
+
+.navbar-brand svg {
+    height: 2.2rem;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    margin: 0;
+}
+
+.nav-menu .menu-item {
+    display: inline-block;
+}
+
+.nav-menu .menu-item a {
+    display: inline-block;
+    padding: 1rem .85rem .7rem;
+    font-size: .8rem;
+    text-decoration: none;
+    color: #212529;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1rem;
+    letter-spacing: .08rem;
+}
+
+.single-header {
+    background: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+    border-top: 1px solid #e9ecef;
+    padding: 3rem 2rem 2rem;
+    text-align: center;
+}
+
+.main {
+    display: grid;
+    grid-template-areas: sidebar content;
+    grid-template-columns: min-content auto;
+    grid-column-gap: 30px;
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+.side-nav {
+    min-width: 200px;
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    padding: 15px;
+    font-size: .9rem;
+}
+
+.side-nav ul {
+    padding: 0;
+}
+
+.side-nav li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.side-nav li a {
+    color: #212529;
+    text-decoration: none;
+}
+
+.side-nav li ul {
+    padding-left: 10px;
+}
+
+.nav-current-article {
+    font-weight: 600;
+}
+
+.archive-items {
+    
+}
+
+.archive-items li {
+    list-style-type: none;
+    border: 1px solid #e9ecef;
+    background: #f8f9fa;
+    margin: 10px 0;
+}
+
+img {
+    max-width: 100%;
+}
