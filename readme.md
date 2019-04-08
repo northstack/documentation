@@ -12,4 +12,5 @@ NorthStack is a hosting platform that allows you to leverage the amazing power a
 ## Platforms
 
 * [WordPress](/wordpress/)
+* [Gatsby](/gatsby/)
 * [Jekyll](/jekyll/)
