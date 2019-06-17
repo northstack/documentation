@@ -1,0 +1,22 @@
+[
+    {
+        "label": "Getting Started",
+        "link": "/getting-started/"
+    },
+    {
+        "label": "Community Q&A",
+        "link": "https://answers.northstack.com/"
+    },
+    {
+        "label": "Pricing",
+        "link": "https://northstack.com/pricing/"
+    },
+    {
+        "label": "Blog",
+        "link": "https://northstack.com/blog/"
+    },
+    {
+        "label": "Contact",
+        "link": "https://northstack.com/contact/"
+    }
+]

@@ -1,0 +1,258 @@
+[
+    {
+        "label": "Getting Started with NorthStack",
+        "link": "/getting-started/"
+    },
+    {
+        "label": "Account",
+        "link": "/account/",
+        "children": [
+            {
+                "label": "Inviting Collaborators",
+                "link": "/account/inviting-collaborators/"
+            },
+            {
+                "label": "Managing Apps",
+                "link": "/account/managing-apps/"
+            },
+            {
+                "label": "Managing Collaborators",
+                "link": "/account/managing-collaborators/"
+            },
+            {
+                "label": "Changing Organization Details",
+                "link": "/account/organization-details/"
+            },
+            {
+                "label": "Two-Factor Authentication",
+                "link": "/account/two-factor-authentication/"
+            },
+            {
+                "label": "Changing User Settings",
+                "link": "/account/user-settings/"
+            }
+        ]
+    },
+    {
+        "label": "NorthStack CLI",
+        "link": "/cli/",
+        "children": [
+            {
+                "label": "MacOS Installation Guide",
+                "link": "/cli/macos/"
+            },
+            {
+                "label": "Reference",
+                "link": "/cli/reference/",
+                "children": [
+                    {
+                        "label": "_completion",
+                        "link": "/cli/reference/_completion/"
+                    },
+                    {
+                        "label": "app",
+                        "link": "/cli/reference/app/",
+                        "children": [
+                            {
+                                "label": "app:create",
+                                "link": "/cli/reference/app/create/"
+                            },
+                            {
+                                "label": "app:debug",
+                                "link": "/cli/reference/app/debug/"
+                            },
+                            {
+                                "label": "app:deploy",
+                                "link": "/cli/reference/app/deploy/"
+                            },
+                            {
+                                "label": "app:info",
+                                "link": "/cli/reference/app/info/"
+                            },
+                            {
+                                "label": "app:list",
+                                "link": "/cli/reference/app/list/"
+                            },
+                            {
+                                "label": "app:localdev",
+                                "link": "/cli/reference/app/localdev/"
+                            },
+                            {
+                                "label": "app:logs",
+                                "link": "/cli/reference/app/logs/"
+                            }
+                        ] 
+                    },
+                    {
+                        "label": "auth",
+                        "link": "/cli/reference/auth/",
+                        "children": [
+                            {
+                                "label": "auth:client-login",
+                                "link": "/cli/reference/auth/client-login/"
+                            },
+                            {
+                                "label": "auth:enable-2fa",
+                                "link": "/cli/reference/auth/enable-2fa/"
+                            },
+                            {
+                                "label": "auth:login",
+                                "link": "/cli/reference/auth/login/"
+                            },
+                            {
+                                "label": "auth:logout",
+                                "link": "/cli/reference/auth/logout/"
+                            },
+                            {
+                                "label": "auth:whoami",
+                                "link": "/cli/reference/auth/whoami/"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "help",
+                        "link": "/cli/reference/help/"
+                    },
+                    {
+                        "label": "list",
+                        "link": "/cli/reference/list/"
+                    },
+                    {
+                        "label": "org",
+                        "link": "/cli/reference/org/",
+                        "children": [
+                            {
+                                "label": "org:default",
+                                "link": "/cli/reference/org/default/"
+                            },
+                            {
+                                "label": "org:info",
+                                "link": "/cli/reference/org/info/"
+                            },
+                            {
+                                "label": "org:list",
+                                "link": "/cli/reference/org/list/"
+                            },
+                            {
+                                "label": "org:user",
+                                "link": "/cli/reference/org/user/",
+                                "children": [
+                                    {
+                                        "label": "org:user:list",
+                                        "link": "/cli/reference/org/user/list/"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "label": "secrets",
+                        "link": "/cli/reference/secrets/",
+                        "children": [
+                            {
+                                "label": "secrets:list",
+                                "link": "/cli/reference/secrets/list/"
+                            },
+                            {
+                                "label": "secrets:remove",
+                                "link": "/cli/reference/secrets/remove/"
+                            },
+                            {
+                                "label": "secrets:set",
+                                "link": "/cli/reference/secrets/set/"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "signup",
+                        "link": "/cli/reference/signup/",
+                        "children": [
+                            {
+                                "label": "signup:reverify",
+                                "link": "/cli/reference/signup/reverify/"
+                            },
+                            {
+                                "label": "signup:verify",
+                                "link": "/cli/reference/signup/verify/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "FAQs",
+        "link": "/faqs/"
+    },
+    {
+        "label": "Frameworks",
+        "link": "/frameworks/",
+        "children": [
+            {
+                "label": "Gatsby",
+                "link": "/frameworks/gatsby/",
+                "children": [
+                    {
+                        "label": "Getting Started Guide",
+                        "link": "/frameworks/gatsby/getting-started/"
+                    },
+                    {
+                        "label": "Installing the Gatsby CLI",
+                        "link": "/frameworks/gatsby/installing-gatsby/"
+                    }
+                ]
+            },
+            {
+                "label": "Jekyll",
+                "link": "/frameworks/jekyll/",
+                "children": [
+                    {
+                        "label": "Getting Started Guide",
+                        "link": "/frameworks/jekyll/getting-started/"
+                    },
+                    {
+                        "label": "Installing the Jekyll CLI",
+                        "link": "/frameworks/jekyll/installing-jekyll/"
+                    }
+                ]
+            },
+            {
+                "label": "Static Apps",
+                "link": "/frameworks/static/"
+            },
+            {
+                "label": "WordPress",
+                "link": "/frameworks/wordpress/",
+                "children": [
+                    {
+                        "label": "Changing WordPress Versions",
+                        "link": "/frameworks/wordpress/changing-wordpress-version/"
+                    },
+                    {
+                        "label": "Getting Started Guide",
+                        "link": "/frameworks/wordpress/getting-started/"
+                    },
+                    {
+                        "label": "Recovering WordPress Admin Credentials",
+                        "link": "/frameworks/wordpress/recovering-credentials/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "General",
+        "link": "/general/"
+    },
+    {
+        "label": "Integrations",
+        "link": "/integrations/",
+        "children": [
+            {
+                "label": "GitHub",
+                "link": "/integrations/github/"
+            }
+        ]
+    }
+]

@@ -1,0 +1,263 @@
+$primary: #5C7D86;
+$secondary: #C8004d;
+
+$green: #00E781;
+$orange: #FF5831;
+$yellow: #fddb1e;
+
+$blue-dark: #1c3b4a;
+
+// Gray palette
+$gray-light-1: #F8F9FA;
+$gray-light-2: #E9ECEF;
+$gray-light-3: #DEE2E6;
+
+$gray-med-1: #CED4DA;
+$gray-med-2: #ADB5BD;
+$gray-med-3: #6C757D;
+
+$gray-dark-1: #495057;
+$gray-dark-2: #343A40;
+$gray-dark-3: #212529;
+
+html body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-item {
+  .nav-item {
+    margin-left: 1em;
+  }
+}
+
+.navbar.side-nav {
+  .nav-item {
+    a {
+      &.active {
+        color: $secondary;
+      }
+
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+}
+
+.article-toc {
+  p {
+    margin: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  > ul:first-child {
+    padding: 0;
+  }
+
+  a {
+    color: rgba(0,0,0,.5);
+
+    &:hover {
+      color: rgba(0,0,0,.7);
+      text-decoration: none;
+    }
+  }
+
+  & > ul > li > ul {
+    margin: 0;
+  }
+}
+
+.related-articles {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  .card-title {
+    color: #c8004d;
+    text-decoration: none;
+  }
+
+  .card-text {
+    color: rgba(0,0,0,.5);
+  }
+
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .related-article {
+    p {
+      margin: 0;
+    }
+  }
+}
+
+article {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  
+  a {
+    color: $secondary;
+
+    &:hover {
+      color: $secondary;
+      text-decoration: none;
+    }
+  }
+
+  h1 {
+    margin: 1rem 0;
+    color: $blue-dark;
+  }
+
+  h2, h3, h4, h5, h6 {
+    margin: 1rem 0;
+  }
+
+  h2 {
+    color: $gray-dark-2;
+  }
+
+  h3 {
+    color: $gray-dark-1;
+  }
+
+  p {
+    color: #495057;
+  }
+}
+
+header {
+  border-bottom: 1px solid rgba(157, 177, 182, 0.08);
+  background-color: #1c3b4a;
+
+  #navbar-top {
+    a {
+      color: $gray-light-1;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+}
+
+.archive-cards .card {
+  min-width: 200px;
+}
+
+#article-toc > ul > li > p {
+  display: none;
+}
+
+#article-toc > ul > li > ul {
+  padding-left: 0;
+}
+
+#article-toc > ul > li > ul > li > ul {
+  padding: 0;
+  margin-left: 1em;
+}
+
+#article-toc li {
+  padding: .25em;
+}
+
+main nav .nav-link {
+  padding: .25em;
+}
+
+.navbar-brand svg {
+  height: 2.2rem;
+  fill: $gray-light-2;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: $primary !important;
+}
+
+main {
+  background-color: #fff;
+}
+
+.wrapper {
+  min-height:100%;
+}
+
+footer, .push {
+  height: 50px;
+}
+
+footer {
+  background-color: $primary;
+  color: $gray-light-1;
+
+  a {
+    color: $gray-light-1;
+  }
+}
+
+.footer-margin {
+  height: 100px;
+}
+
+.col-main-content {
+  padding-bottom: 5em;
+}
+
+.active {
+  font-weight: 500;
+}
+
+.list-group .list-group-item-action {
+  .list-group-item-title {
+    font-weight: 500;
+  }
+
+  .list-group-item-description {
+    color: $gray-med-3;
+  }
+
+  &:hover {
+    background-color: $primary;
+
+    .list-group-item-title, .list-group-item-description {
+      color: $gray-light-1;
+    }
+  }
+
+  
+}
+
+.archive-children {
+  padding: 0 2em;
+}
+
+.home-cards .card {
+  min-width: 250px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+
+  &:hover {
+    border: 1px solid $secondary;
+  }
+
+  .card-title {
+    color: $blue-dark;
+  }
+}
+
+.col-main-content {
+  border-left: 1px solid $gray-med-1;
+  border-right: 1px solid $gray-med-1;
+}
+
+main .col-right-sidebar {
+  max-width: 375px;
+}
