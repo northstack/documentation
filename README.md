@@ -11,14 +11,14 @@ The NorthStack Docs site.
 1. Clone the repo.
 2. `npm install`
 3. `gatsby develop`
-4. [http://localhost:8000]()
+4. [http://localhost:8000](http://localhost:8000)
 
 ### Production
 
 1. Clone the repo.
 2. `npm install`
 3. `gatsby build`
-4. To serve the production build: `gatsby serve`, then go to [http://localhost:9000]()
+4. To serve the production build: `gatsby serve`, then go to [http://localhost:9000](http://localhost:9000)
 
 ## Additional Info
 
