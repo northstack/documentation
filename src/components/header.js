@@ -14,8 +14,8 @@ const Header = ({ siteTitle }) => (
           <Navbar.Toggle aria-controls="navbar-top" />
           <Navbar.Collapse id="navbar-top">
             <Nav className="ml-auto">
-              {HeaderNavJson.map( (menuItem) => (
-                <Nav.Link href={menuItem.link}>{menuItem.label}</Nav.Link>
+              {HeaderNavJson.map( (menuItem, index) => (
+                <Nav.Link key={index} href={menuItem.link}>{menuItem.label}</Nav.Link>
               ))}
             </Nav>
           </Navbar.Collapse>

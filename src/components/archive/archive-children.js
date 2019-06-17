@@ -10,7 +10,7 @@ const ArchiveChildren = ({ archiveChildren }) => (
                 <Card>
                     <ListGroup variant="flush">
                         {archiveChildren.edges.map((archiveChild) => (
-                            <ListGroup.Item action href={archiveChild.node.fields.slug}>
+                            <ListGroup.Item key={archiveChild.node.fields.slug} action href={archiveChild.node.fields.slug}>
                                 <p className="related-title list-group-item-title">{archiveChild.node.frontmatter.title}</p>
                                 <p className="related-description list-group-item-description">{archiveChild.node.frontmatter.description}</p>
                             </ListGroup.Item>

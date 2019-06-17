@@ -1,27 +1,21 @@
 import React from "react";
 import { graphql } from "gatsby";
 
-import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
 import Layout from "../components/layout";
-import MainMenu from "../components/main-menu";
-import ArchiveChildren from "../components/archive-children";
+import LeftColumn from "../components/columns/left";
+import MainColumn from "../components/columns/main";
+
+import SEO from "../components/seo";
 
 const Template = ({data}) => (
     <Layout>
-            <Row className="no-gutters">
-                <Col xs={3} lg="auto" style={{backgroundColor: "rgba(0,0,0,.03)"}}>
-                    <Container className="sticky-top article-left">
-                        <MainMenu currentPage={data.currentArticle.fields.slug} />
-                    </Container>
-                </Col>
-                <Col xs={9} lg className="col-main-content">
-                    <article dangerouslySetInnerHTML={{ __html: data.currentArticle.html }} />
-                    <ArchiveChildren archiveChildren={data.archiveChildren} />
-                </Col>
-            </Row>
+        <SEO title={data.currentArticle.frontmatter.title} description={data.currentArticle.frontmatter.description} />
+        <Row className="no-gutters">
+            <LeftColumn currentSlug={data.currentArticle.fields.slug} />
+            <MainColumn markup={data.currentArticle.html} template="archive" archiveChildren={data.archiveChildren} />
+        </Row>
     </Layout>
 )
 
@@ -34,6 +28,7 @@ export const pageQuery = graphql`
                 frontmatter {
                     title
                     related
+                    description
                 },
                 fields {
                     slug

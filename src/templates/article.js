@@ -1,31 +1,22 @@
 import React from "react";
 import { graphql } from "gatsby";
 
-import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
 import Layout from "../components/layout";
-import MainMenu from "../components/main-menu";
-import Related from "../components/related";
+import LeftColumn from "../components/columns/left";
+import MainColumn from "../components/columns/main";
+import RightColumn from "../components/columns/right";
+
+import SEO from "../components/seo";
 
 const Template = ({data}) => (
     <Layout>
+        <SEO title={data.currentArticle.frontmatter.title} description={data.currentArticle.frontmatter.description} />
         <Row className="no-gutters">
-            <Col xs={3} lg="auto" className="col-main-menu" style={{backgroundColor: "rgba(0,0,0,.03)"}}>
-                <MainMenu className="sticky-top article-left" currentPage={data.currentArticle.fields.slug} />
-            </Col>
-            <Col className="col-main-content">
-                <article dangerouslySetInnerHTML={{ __html: data.currentArticle.html }} />
-            </Col>
-            <Col xl={3} className="col-right-sidebar d-none d-xl-flex">
-                <Container className="sticky-top article-right">
-                    {data.currentArticle.headings.length > 3 &&
-                        <nav id="article-toc" className="article-toc" dangerouslySetInnerHTML={{ __html: data.currentArticle.tableOfContents }} />
-                    }
-                    <Related relatedArticles={data.relatedArticles}/>
-                </Container>
-            </Col>
+            <LeftColumn currentSlug={data.currentArticle.fields.slug} />
+            <MainColumn markup={data.currentArticle.html} template="article" />
+            <RightColumn tableOfContentsMarkup={data.currentArticle.tableOfContents} relatedArticles={data.relatedArticles} currentArticleHeadings={data.currentArticle.headings} />
         </Row>
     </Layout>
 )
@@ -39,6 +30,7 @@ export const pageQuery = graphql`
                 frontmatter {
                     title
                     related
+                    description
                 },
                 fields {
                     slug
