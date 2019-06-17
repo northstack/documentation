@@ -109,15 +109,15 @@ class IndexPage extends React.Component {
                   <ol>
                     <li>
                       <p>Install the NorthStack CLI:</p>
-                      <p><code>git clone https://github.com/northstack/northstack-client.git && cd northstack-client && ./bin/install.sh</code></p>
+                      <pre className="language-shell"><code>git clone https://github.com/northstack/northstack-client.git && cd northstack-client && ./bin/install.sh</code></pre>
                     </li>
                     <li>
                       <p>Create a new app:</p>
-                      <p><code>northstack app:create "MyAppName" "myappname.com" wordpress</code></p>
+                      <pre className="language-shell"><code>northstack app:create "MyAppName" "myappname.com" wordpress</code></pre>
                     </li>
                     <li>
                       <p>Deploy your app to NorthStack:</p>
-                      <p><code>northstack app:deploy "My Deploy Message" MyAppName dev</code></p>
+                      <pre className="language-shell"><code>northstack app:deploy "My Deploy Message" MyAppName dev</code></pre>
                     </li>
                   </ol>
                 </Container>
