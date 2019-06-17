@@ -10,7 +10,7 @@ Your NorthStack account allows you to have multiple users that you can manage th
 
 ## Adding Collaborators
 
-For more information on adding collaborators, see our article on [adding a collaborator to your NorthStack organization](/account/inviting-collaborators.md).
+For more information on adding collaborators, see our article on [adding a collaborator to your NorthStack organization](/account/inviting-collaborators/).
 
 ## Changing Collaborator Permissions
 
