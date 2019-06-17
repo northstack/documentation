@@ -3,6 +3,7 @@ module.exports = {
     title: `NorthStack Documentation`,
     description: `Learn how to use NorthStack to create blazing-fast, scalable, static apps with ease.`,
     author: `@gonorthstack`,
+    siteUrl: `http://docs.northstack.com`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -76,6 +77,20 @@ module.exports = {
           },
         ],
       },
-    }
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `NorthStack Documentation`,
+        short_name: `NorthStack`,
+        start_url: `/`,
+        background_color: `#ff`,
+        theme_color: `#1c3b4a`,
+        display: `standalone`,
+        icon: 'src/images/icons/northstack-flat-color-logomark-transparent.svg'
+      },
+    },
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-sitemap`
   ],
 }
