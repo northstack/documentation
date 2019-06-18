@@ -1,279 +1,284 @@
-$primary: #5C7D86;
-$secondary: #C8004d;
+$primary: #5c7d86;
+$secondary: #c8004d;
 
-$green: #00E781;
-$orange: #FF5831;
+$green: #00e781;
+$orange: #ff5831;
 $yellow: #fddb1e;
 
 $blue-dark: #1c3b4a;
 
 // Gray palette
-$gray-light-1: #F8F9FA;
-$gray-light-2: #E9ECEF;
-$gray-light-3: #DEE2E6;
+$gray-light-1: #f8f9fa;
+$gray-light-2: #e9ecef;
+$gray-light-3: #dee2e6;
 
-$gray-med-1: #CED4DA;
-$gray-med-2: #ADB5BD;
-$gray-med-3: #6C757D;
+$gray-med-1: #ced4da;
+$gray-med-2: #adb5bd;
+$gray-med-3: #6c757d;
 
 $gray-dark-1: #495057;
-$gray-dark-2: #343A40;
+$gray-dark-2: #343a40;
 $gray-dark-3: #212529;
 
 html body {
-  font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .no-padding {
-  padding: 0 !important;
+	padding: 0 !important;
 }
 
 .nav-item {
-  .nav-item {
-    margin-left: 1em;
-  }
+	.nav-item {
+		margin-left: 1em;
+	}
 }
 
 .navbar.side-nav {
-  .nav-item {
-    a {
-      &.active {
-        color: $secondary;
-      }
+	.nav-item {
+		a {
+			&.active {
+				color: $secondary;
+			}
 
-      &:hover {
-        color: $primary;
-      }
-    }
-  }
+			&:hover {
+				color: $primary;
+			}
+		}
+	}
 }
 
 .article-toc {
-  p {
-    margin: 0;
-  }
+	p {
+		margin: 0;
+	}
 
-  li {
-    list-style: none;
-  }
+	li {
+		list-style: none;
+	}
 
-  > ul:first-child {
-    padding: 0;
-  }
+	> ul:first-child {
+		padding: 0;
+	}
 
-  a {
-    color: rgba(0,0,0,.5);
+	a {
+		color: rgba(0, 0, 0, 0.5);
 
-    &:hover {
-      color: rgba(0,0,0,.7);
-      text-decoration: none;
-    }
-  }
+		&:hover {
+			color: rgba(0, 0, 0, 0.7);
+			text-decoration: none;
+		}
+	}
 
-  & > ul > li > ul {
-    margin: 0;
-  }
+	& > ul > li > ul {
+		margin: 0;
+	}
 }
 
 .related-articles {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 
-  .card-title {
-    color: #c8004d;
-    text-decoration: none;
-  }
+	.card-title {
+		color: #c8004d;
+		text-decoration: none;
+	}
 
-  .card-text {
-    color: rgba(0,0,0,.5);
-  }
+	.card-text {
+		color: rgba(0, 0, 0, 0.5);
+	}
 
-  a {
-    &:hover {
-      text-decoration: none;
-    }
-  }
+	a {
+		&:hover {
+			text-decoration: none;
+		}
+	}
 
-  .related-article {
-    p {
-      margin: 0;
-    }
-  }
+	.related-article {
+		p {
+			margin: 0;
+		}
+	}
 }
 
 article {
-  padding-right: 2rem;
-  padding-left: 2rem;
-  
-  a {
-    color: $secondary;
+	padding-right: 2rem;
+	padding-left: 2rem;
 
-    &:hover {
-      color: $secondary;
-      text-decoration: none;
-    }
-  }
+	a {
+		color: $secondary;
 
-  h1 {
-    margin: 1rem 0;
-    color: $blue-dark;
-  }
+		&:hover {
+			color: $secondary;
+			text-decoration: none;
+		}
+	}
 
-  h2, h3, h4, h5, h6 {
-    margin: 1rem 0;
-  }
+	h1 {
+		margin: 1rem 0;
+		color: $blue-dark;
+	}
 
-  h2 {
-    color: $gray-dark-2;
-  }
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		margin: 1rem 0;
+	}
 
-  h3 {
-    color: $gray-dark-1;
-  }
+	h2 {
+		color: $gray-dark-2;
+	}
 
-  p {
-    color: #495057;
-  }
+	h3 {
+		color: $gray-dark-1;
+	}
+
+	p {
+		color: #495057;
+	}
 }
 
 header {
-  border-bottom: 1px solid rgba(157, 177, 182, 0.08);
-  background-color: #1c3b4a;
+	border-bottom: 1px solid rgba(157, 177, 182, 0.08);
+	background-color: #1c3b4a;
 
-  #navbar-top {
-    a {
-      color: $gray-light-1;
-      &:hover {
-        color: $primary;
-      }
-    }
-  }
+	#navbar-top {
+		a {
+			color: $gray-light-1;
+			&:hover {
+				color: $primary;
+			}
+		}
+	}
 }
 
 .archive-cards .card {
-  min-width: 200px;
+	min-width: 200px;
 }
 
 #article-toc > ul > li > p {
-  display: none;
+	display: none;
 }
 
 #article-toc > ul > li > ul {
-  padding-left: 0;
+	padding-left: 0;
 }
 
 #article-toc > ul > li > ul > li > ul {
-  padding: 0;
-  margin-left: 1em;
+	padding: 0;
+	margin-left: 1em;
 }
 
 #article-toc li {
-  padding: .25em;
+	padding: 0.25em;
 }
 
 main nav .nav-link {
-  padding: .25em;
+	padding: 0.25em;
 }
 
 .navbar-brand svg {
-  height: 2.2rem;
-  fill: $gray-light-2;
+	height: 2.2rem;
+	fill: $gray-light-2;
 }
 
-html, body {
-  height: 100%;
-  margin: 0;
-  background-color: $primary !important;
+html,
+body {
+	height: 100%;
+	margin: 0;
+	background-color: $primary !important;
 }
 
 main {
-  background-color: #fff;
+	background-color: #fff;
 }
 
 .wrapper {
-  min-height:100%;
+	min-height: 100%;
 }
 
-footer, .push {
-  height: 50px;
+footer,
+.push {
+	height: 50px;
 }
 
 footer {
-  background-color: $primary;
-  color: $gray-light-1;
+	background-color: $primary;
+	color: $gray-light-1;
 
-  a {
-    color: $gray-light-1;
-  }
+	a {
+		color: $gray-light-1;
+	}
 }
 
 .footer-margin {
-  height: 100px;
+	height: 100px;
 }
 
 .col-main-content {
-  padding-bottom: 5em;
+	padding-bottom: 5em;
 }
 
 .active {
-  font-weight: 500;
+	font-weight: 500;
 }
 
 .list-group .list-group-item-action {
-  .list-group-item-title {
-    font-weight: 500;
-  }
+	.list-group-item-title {
+		font-weight: 500;
+	}
 
-  .list-group-item-description {
-    color: $gray-med-3;
-  }
+	.list-group-item-description {
+		color: $gray-med-3;
+	}
 
-  &:hover {
-    background-color: $primary;
+	&:hover {
+		background-color: $primary;
 
-    .list-group-item-title, .list-group-item-description {
-      color: $gray-light-1;
-    }
-  }
-
-  
+		.list-group-item-title,
+		.list-group-item-description {
+			color: $gray-light-1;
+		}
+	}
 }
 
 .archive-children {
-  padding: 0 2em;
+	padding: 0 2em;
 }
 
 .home-cards .card {
-  min-width: 250px;
-  margin-bottom: 1em;
-  margin-top: 1em;
+	min-width: 250px;
+	margin-bottom: 1em;
+	margin-top: 1em;
 
-  &:hover {
-    border: 1px solid $secondary;
-  }
+	&:hover {
+		border: 1px solid $secondary;
+	}
 
-  .card-title {
-    color: $blue-dark;
-  }
+	.card-title {
+		color: $blue-dark;
+	}
 }
 
 .col-main-content {
-  border-left: 1px solid $gray-med-1;
-  border-right: 1px solid $gray-med-1;
+	border-left: 1px solid $gray-med-1;
+	border-right: 1px solid $gray-med-1;
 }
 
 main .col-right-sidebar {
-  max-width: 375px;
+	max-width: 375px;
 }
 
 main .col-main-menu {
-  max-width: 350px;
+	max-width: 350px;
 }
 
 .col-main-content article p {
-  code {
-    background: none;
-    color: initial;
-    text-shadow: none;
-  }
+	code {
+		background: none;
+		color: initial;
+		text-shadow: none;
+	}
 }
