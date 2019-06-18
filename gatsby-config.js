@@ -32,7 +32,16 @@ module.exports = {
             options: {
               blocks: {
                 danger: {
-                  classes: "danger"
+                  title: "optional",
+                  classes: "alert alert-danger"
+                },
+                warning: {
+                  title: "optional",
+                  classes: "alert alert-warning"
+                },
+                info: {
+                  title: "optional",
+                  classes: "alert alert-info"
                 }
               }
             }
