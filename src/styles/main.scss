@@ -269,3 +269,11 @@ main .col-right-sidebar {
 main .col-main-menu {
   max-width: 350px;
 }
+
+.col-main-content article p {
+  code {
+    background: none;
+    color: initial;
+    text-shadow: none;
+  }
+}
