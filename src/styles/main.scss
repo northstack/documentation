@@ -20,6 +20,9 @@ $gray-dark-1: #495057;
 $gray-dark-2: #343a40;
 $gray-dark-3: #212529;
 
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../node_modules/prismjs/themes/prism-okaidia.css';
+
 html body {
 	font-family: 'Montserrat', sans-serif;
 }
