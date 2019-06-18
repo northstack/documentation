@@ -99,7 +99,13 @@ module.exports = {
 				icon: 'src/images/icons/northstack-flat-color-logomark-transparent.svg',
 			},
 		},
-		`gatsby-plugin-offline`,
 		`gatsby-plugin-sitemap`,
+		{
+			resolve: `gatsby-plugin-canonical-urls`,
+			options: {
+				siteUrl: `http://docs.northstack.com`,
+			},
+		},
+		`gatsby-plugin-offline`,
 	],
 };
