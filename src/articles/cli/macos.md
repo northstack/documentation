@@ -72,4 +72,4 @@ Now that you have the NorthStack CLI installed, you're ready to start using it. 
 
 * [NorthStack Getting Started Guide](/getting-started/)
 * [NorthStack CLI Reference](/cli/reference/)
-* [WordPress Getting Started Guide](/wordpress/getting-started/)
+* [WordPress Getting Started Guide](/frameworks/wordpress/getting-started/)

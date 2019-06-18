@@ -13,10 +13,10 @@ In this section, you'll find information on running a serverless WordPress app o
 
 Just getting started? Take a look at the following articles:
 
-* [WordPress Getting Started Guide](/wordpress/getting-started/)
+* [WordPress Getting Started Guide](/frameworks/wordpress/getting-started/)
 * [NorthStack CLI Getting Started Guide](/getting-started/)
 
 ## Further Reading
 
-* [Recovering Your WordPress Admin Credentials](/wordpress/recovering-credentials/)
-* [Changing Your WordPress Version](/wordpress/changing-wordpress-version/)
+* [Recovering Your WordPress Admin Credentials](/frameworks/wordpress/recovering-credentials/)
+* [Changing Your WordPress Version](/frameworks/wordpress/changing-wordpress-version/)
