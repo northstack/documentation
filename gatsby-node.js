@@ -23,7 +23,14 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 };
 
 exports.createPages = ({ actions, graphql }) => {
-	const { createPage } = actions;
+	const { createPage, createRedirect } = actions;
+
+	createRedirect({
+		fromPath: '/frameworks/jekyll/installing-jekyll.html',
+		toPath: '/frameworks/jekyll/installing-jekyll/',
+		redirectInBrowser: true,
+		isPermanent: true,
+	});
 
 	const articleTemplate = path.resolve(`src/templates/article.js`);
 	const archiveTemplate = path.resolve(`src/templates/archive.js`);

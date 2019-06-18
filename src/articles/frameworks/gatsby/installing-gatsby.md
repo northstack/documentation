@@ -26,4 +26,4 @@ gatsby --help
 
 ## Getting Started with Gatsby on NorthStack
 
-Ready to build your Gatsby app on NorthStack? Take a look at our [Gatsby getting started guide](/gatsby/getting-started/).
+Ready to build your Gatsby app on NorthStack? Take a look at our [Gatsby getting started guide](/frameworks/gatsby/getting-started/).
