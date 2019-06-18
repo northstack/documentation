@@ -200,6 +200,16 @@
                     {
                         "label": "Installing the Gatsby CLI",
                         "link": "/frameworks/gatsby/installing-gatsby/"
+                    },
+                    {
+                        "label": "Gatsby Developer Resources",
+                        "link": "/frameworks/gatsby/development/",
+                        "children": [
+                            {
+                                "label": "Adding Custom Body Classes",
+                                "link": "/frameworks/gatsby/development/custom-body-classes/"
+                            }
+                        ]
                     }
                 ]
             },
