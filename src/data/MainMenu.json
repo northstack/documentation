@@ -226,12 +226,22 @@
                 "link": "/frameworks/wordpress/",
                 "children": [
                     {
-                        "label": "Changing WordPress Versions",
-                        "link": "/frameworks/wordpress/changing-wordpress-version/"
-                    },
-                    {
                         "label": "Getting Started Guide",
                         "link": "/frameworks/wordpress/getting-started/"
+                    },
+                    {
+                        "label": "WordPress Developer Resources",
+                        "link": "/frameworks/wordpress/development/",
+                        "children": [
+                            {
+                                "label": "Enabling Anonymous Comments via the REST API",
+                                "link": "/frameworks/wordpress/development/anonymous-comments-rest-api/"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Changing WordPress Versions",
+                        "link": "/frameworks/wordpress/changing-wordpress-version/"
                     },
                     {
                         "label": "Recovering WordPress Admin Credentials",
