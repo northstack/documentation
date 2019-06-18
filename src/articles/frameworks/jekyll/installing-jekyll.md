@@ -19,4 +19,4 @@ If you use a Mac, here's how to install Jekyll:
    gem install bundler jekyll
    ```
 
-That's it! To create a new Jekyll app on NorthStack, see our [getting started guide](/jekyll/getting-started/).
+That's it! To create a new Jekyll app on NorthStack, see our [getting started guide](/frameworks/jekyll/getting-started/).

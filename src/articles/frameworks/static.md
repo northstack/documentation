@@ -26,7 +26,7 @@ If all went well, your new static app should now be created!
 
 To update the contents of your app, place them within the `app/public` directory inside your main NorthStack app contents. The contents within this directory will be available when deployed.
 
-If you're using Jekyll to create your static app, we recommend taking a look at our [Jekyll getting started guide](/jekyll/getting-started/).
+If you're using Jekyll to create your static app, we recommend taking a look at our [Jekyll getting started guide](/frameworks/jekyll/getting-started/).
 
 ## Deploying Your App
 

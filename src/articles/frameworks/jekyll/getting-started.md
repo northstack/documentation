@@ -10,7 +10,7 @@ Jekyll is a great way to create static sites on NorthStack. Instead of using dat
 
 ## Requirements
 * [NorthStack CLI](/cli/)
-* [Jekyll](/jekyll/installing-jekyll/)
+* [Jekyll](/frameworks/jekyll/installing-jekyll/)
 
 ## Creating a New Jekyll App
 
