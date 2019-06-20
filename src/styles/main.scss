@@ -133,6 +133,8 @@ main .col-main-content {
 	@extend .col-md-10;
 	@extend .col-xl-8;
 	padding-bottom: 2rem;
+	min-height: 85vh;
+	box-shadow: inset 8px 0px 6px -6px rgba($ns-primary-dark-accent,.3);
 
 	article {
 		padding: 1rem 0;

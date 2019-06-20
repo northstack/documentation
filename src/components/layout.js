@@ -29,7 +29,7 @@ const Layout = ({ children }) => (
 					<Header siteTitle={data.site.siteMetadata.title} />
 					<main className="container-fluid">{children}</main>
 				</div>
-				<footer className="sitefooter">
+				<footer className="stickBottom sitefooter">
 					<p>© {new Date().getFullYear()} {` `}
 					<a href="https://northstack.com">NorthStack</a></p>
 				</footer>

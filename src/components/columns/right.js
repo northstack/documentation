@@ -13,5 +13,4 @@ const RightColumn = ({ tableOfContentsMarkup, relatedArticles, currentArticleHea
 		</div>
 	</Col>
 );
-
 export default RightColumn;

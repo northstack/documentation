@@ -80,7 +80,7 @@
       list-style-type: none;
       padding-left: 1rem;
       padding-right: 0rem;
-      li p {
+      li p,li li p {
         display:none;
       }
       ul {
@@ -99,15 +99,17 @@
   h5 {
     text-transform: uppercase;
     color: $gray-900;
-    font-size: 12px;
+    font-size: .9rem;
   }
 
   .related-articles {
     .list-group-item {
       padding: .5rem;
-
+      .list-group-item-title {
+        font-size: .8rem;
+      }
       .list-group-item-description {
-        font-size: 11px;
+        font-size: .7rem;
       }
     }
   }
