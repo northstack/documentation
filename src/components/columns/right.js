@@ -7,7 +7,6 @@ import Related from '../article/related';
 const RightColumn = ({ tableOfContentsMarkup, relatedArticles, currentArticleHeadings }) => (
 	<Col className="col-right-sidebar">
 		<div id="ArticleRight" className="sticky-top">
-			<h5>TOC</h5>
 			<ArticleTableOfContents headings={currentArticleHeadings} markup={tableOfContentsMarkup} />
 			<Related relatedArticles={relatedArticles} />
 		</div>
