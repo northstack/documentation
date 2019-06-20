@@ -4,7 +4,12 @@ const minHeaders = 3;
 
 const ArticleTableOfContents = ({ headings, markup }) => {
 	if (headings.length > minHeaders) {
-		return <nav id="article-toc" className="article-toc" dangerouslySetInnerHTML={{ __html: markup }} />;
+		return (
+			<>
+				<h5>In This Article</h5>
+				<nav id="article-toc" className="article-toc" dangerouslySetInnerHTML={{ __html: markup }} />
+			</>
+		);
 	} else {
 		return null;
 	}
