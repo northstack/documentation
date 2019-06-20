@@ -5,10 +5,10 @@ import ListGroup from 'react-bootstrap/ListGroup';
 
 const Related = ({ relatedArticles }) => (
 	<>
+	<h5>Related Articles</h5>
+
 		{relatedArticles.edges.length > 0 && (
-			<div className="related-articles">
-				<Card>
-					<Card.Header>Related Articles</Card.Header>
+			<Card className="related-articles">
 					<ListGroup variant="flush">
 						{relatedArticles.edges.map((relatedArticle) => (
 							<ListGroup.Item
@@ -26,8 +26,7 @@ const Related = ({ relatedArticles }) => (
 							</ListGroup.Item>
 						))}
 					</ListGroup>
-				</Card>
-			</div>
+			</Card>
 		)}
 	</>
 );

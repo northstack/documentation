@@ -1,0 +1,226 @@
+/* Typeography */
+@font-face {
+  font-family: "Hind";
+}
+
+@font-face {
+  font-family: "Montserrat";
+}
+@font-face {
+  font-family: "Ionicons";
+}
+
+$body-bg: $white;
+$body-color: $gray-700;
+
+html {
+  font-family: $font-family-sans-serif;
+  font-size: 18px;
+  color: $body-color;
+  background: $body-bg;
+
+  @include media-breakpoint-down(md) {
+    font-size: $font-size-sm;
+  }
+}
+
+.trade {
+  font-family: Helvetica, arial, verdana, sans-serif;
+  font-weight: 100;
+  font-size: small;
+  top: -0.2rem;
+}
+
+small .trade {
+  top: -0.3rem;
+}
+
+h1.headline .trade,
+h2.headline .trade {
+  top: -0.85rem;
+}
+
+h3.headline .trade,
+h4.headline .trade {
+  top: -0.2rem;
+}
+
+.display-1 {
+  font-size: 6rem !important;
+}
+
+.display-2 {
+  font-size: 4rem !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-sans-serif;
+  font-weight: 600;
+  color: $gray-900;
+}
+
+h1.small,
+h2.small,
+h3.small,
+h4.small,
+h5.small,
+h6.small {
+  font-size: 80% !important;
+}
+
+.headline {
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08rem;
+
+  small {
+    color: $gray-500;
+    font-size: small;
+    display: block;
+    padding: 1rem 0;
+  }
+}
+
+.text-white {
+  .headline,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a {
+    color: white !important;
+  }
+}
+
+.text-white a {
+  text-decoration: underline;
+}
+
+small,
+.small {
+  font-size: 80%;
+}
+
+.headline.small {
+  margin-bottom: 1.8rem;
+}
+
+.headline.mb-0 {
+  margin-bottom: 0;
+}
+
+strong,
+.strong {
+  font-weight: 700;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+}
+
+.ls {
+  letter-spacing: 0.08rem;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+blockquote,
+q {
+  quotes: "" "";
+}
+
+.f-halfx {
+  font-size: 1.2rem;
+}
+
+.f-1x {
+  font-size: 1.6rem;
+}
+
+.f-2x {
+  font-size: 2rem;
+}
+
+.f-3x {
+  font-size: 3rem;
+}
+
+.f-4x {
+  font-size: 4rem;
+}
+
+.f-5x {
+  font-size: 5rem;
+}
+
+.f-6x {
+  font-size: 6rem;
+}
+
+.f-8x {
+  font-size: 8rem;
+}
+
+ul.data-list {
+  @extend .d-flex;
+  @extend .flex-row;
+  @extend .flex-wrap;
+
+  li {
+    width: 49%;
+    padding: 0.2rem 0;
+  }
+}
+
+ul.stacking {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+
+  li {
+    text-align: left;
+    margin-bottom: 0.8rem;
+  }
+}
+
+.text-danger-muted {
+  color: theme-color-level('danger', -10);
+}
+
+.text-primary-muted {
+  color: theme-color-level('primary', -10);
+}
+
+.text-success-dark {
+  color: theme-color-level('success', 4);
+}
+
+.headline a,
+h1 a,
+h2 a,
+h3 a {
+  color: $gray-700;
+  transition: 0.5s;
+}
+
+.headline a:hover,
+h1 a:hover,
+h2 a:hover,
+h3 a:hover {
+  color: $gray-500;
+  transition: 0.5s;
+}

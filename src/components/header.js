@@ -1,15 +1,13 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
-import Container from 'react-bootstrap/Container';
+//import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import HeaderNavJson from '../data/HeaderNav.json';
-
 const Header = ({ siteTitle }) => (
 	<header>
-		<Container>
-			<Navbar sticky="top">
-				<Navbar.Brand href="/">
+			<Navbar sticky="top" expand="lg" variant="dark" id="HeaderNav">
+				<Navbar.Brand href="/" className="d-flex align-items-end">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200">
 						<path
 							className="text"
@@ -53,11 +51,11 @@ const Header = ({ siteTitle }) => (
 							fill="#e01b4a"
 							d="M143 53v94a3.15 3.15 0 0 1-3.15 3.15H45.89a3.15 3.15 0 0 1-2.22-5.37l93.92-93.92A3.15 3.15 0 0 1 143 53z"
 						/>
-					</svg>
+					</svg> <span><i class="icon ion-ios-help-buoy"></i> DOCS</span>
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="navbar-top" />
-				<Navbar.Collapse id="navbar-top">
-					<Nav className="ml-auto">
+				<Navbar.Collapse id="navbar-top" className="justify-content-end">
+					<Nav className="ml-auto pt-1">
 						{HeaderNavJson.map((menuItem, index) => (
 							<Nav.Link key={index} href={menuItem.link}>
 								{menuItem.label}
@@ -66,7 +64,6 @@ const Header = ({ siteTitle }) => (
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>
-		</Container>
 	</header>
 );
 

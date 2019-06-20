@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
+//import Container from 'react-bootstrap/Container';
 import CardDeck from 'react-bootstrap/CardDeck';
 import Card from 'react-bootstrap/Card';
 
@@ -14,17 +14,16 @@ class IndexPage extends React.Component {
 	render() {
 		return (
 			<Layout>
-				<Row className="no-gutters">
+				<Row className="">
 					<LeftColumn />
-					<Col xs={true} className="col-main-content">
-						<Container>
+					<Col xs={true} className="col-main-content py-4">
 							<article>
 								<h1>NorthStack Documentation</h1>
 								<p>
 									Welcome to the NorthStack documentation! Take a look around and learn how to use the
 									most powerful platform for deploying serverless apps.
 								</p>
-								<Container className="home-cards">
+								<section className="home-cards">
 									<CardDeck>
 										<Card>
 											<Link to="/getting-started/">
@@ -92,10 +91,10 @@ class IndexPage extends React.Component {
 											</Link>
 										</Card>
 									</CardDeck>
-								</Container>
+								</section>
 
 								<h2>Officially Supported Frameworks</h2>
-								<Container className="home-cards">
+								<section className="home-cards">
 									<CardDeck>
 										<Card>
 											<Link to="/frameworks/wordpress/">
@@ -129,9 +128,9 @@ class IndexPage extends React.Component {
 											</Link>
 										</Card>
 									</CardDeck>
-								</Container>
+								</section>
 								<h2>Quick Start Guide</h2>
-								<Container className="tutorial-steps home-quickstart">
+								<section className="tutorial-steps home-quickstart">
 									<ol>
 										<li>
 											<p>Install the NorthStack CLI:</p>
@@ -155,9 +154,8 @@ class IndexPage extends React.Component {
 											</pre>
 										</li>
 									</ol>
-								</Container>
+								</section>
 							</article>
-						</Container>
 					</Col>
 				</Row>
 			</Layout>

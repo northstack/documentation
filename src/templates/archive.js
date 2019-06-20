@@ -12,7 +12,7 @@ import SEO from '../components/seo';
 const Template = ({ data }) => (
 	<Layout>
 		<SEO title={data.currentArticle.frontmatter.title} description={data.currentArticle.frontmatter.description} />
-		<Row className="no-gutters">
+		<Row>
 			<LeftColumn currentSlug={data.currentArticle.fields.slug} />
 			<MainColumn markup={data.currentArticle.html} template="archive" archiveChildren={data.archiveChildren} />
 		</Row>

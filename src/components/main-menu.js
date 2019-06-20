@@ -15,7 +15,7 @@ class MainMenu extends React.Component {
 
 	render() {
 		return (
-			<Navbar className="side-nav" sticky="top">
+			<Navbar className="side-nav" sticky="top" id="LeftNav">
 				<Nav activeKey={this.props.currentPage} className="flex-column">
 					{this.getMainMenuItems()}
 				</Nav>

@@ -6,11 +6,11 @@ import ArticleTableOfContents from './table-of-contents';
 import Related from './related';
 
 const ArticleRightColumn = ({ tableOfContentsMarkup, relatedArticles, currentArticleHeadings }) => (
-	<Col xl={3} className="col-right-sidebar d-none d-xl-flex">
-		<Container className="sticky-top article-right">
+	<Col className="col-right-sidebar">
+		<div id="ArticleRight" className="sticky-top">
 			<ArticleTableOfContents headings={currentArticleHeadings} markup={tableOfContentsMarkup} />
 			<Related relatedArticles={relatedArticles} />
-		</Container>
+		</div>
 	</Col>
 );
 

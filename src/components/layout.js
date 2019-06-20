@@ -27,11 +27,11 @@ const Layout = ({ children }) => (
 			<>
 				<div className="wrapper">
 					<Header siteTitle={data.site.siteMetadata.title} />
-					<main className="container-fluid no-padding">{children}</main>
+					<main className="container-fluid">{children}</main>
 				</div>
-				<footer sticky="bottom" className="card-footer footer-position">
-					© {new Date().getFullYear()} {` `}
-					<a href="https://northstack.com">NorthStack</a>
+				<footer className="sitefooter">
+					<p>© {new Date().getFullYear()} {` `}
+					<a href="https://northstack.com">NorthStack</a></p>
 				</footer>
 			</>
 		)}
