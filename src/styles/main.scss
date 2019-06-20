@@ -116,7 +116,9 @@ footer {
 }
 
 .archive-children {
-	padding: 0 2em;
+	@include media-breakpoint-up(sm) {
+			padding: 0 2em;
+	}
 }
 
 main .col-main-menu {

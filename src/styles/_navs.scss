@@ -30,7 +30,7 @@
 }
 
 #LeftNav {
-  padding:1rem 0;
+  padding:0;
   .nav-item {
     padding:0;
     text-transform: uppercase;
@@ -66,6 +66,17 @@
 			}
 		}
 	}
+
+  #navbar-left {
+    padding-top:1rem;
+  }
+
+
+  #leftnavtoggle {
+    position: absolute;
+    top:-2.9rem;
+    right:0;
+  }
 }
 
 #ArticleRight {

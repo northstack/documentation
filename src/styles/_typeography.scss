@@ -24,6 +24,18 @@ html {
   }
 }
 
+h1 {
+  color: $gray-900 !important;
+  font-weight: 800 !important;
+  border-bottom: 1px solid $gray-600;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: $gray-700 !important;
+  font-weight: 600 !important;
+}
 .trade {
   font-family: Helvetica, arial, verdana, sans-serif;
   font-weight: 100;
@@ -33,24 +45,6 @@ html {
 
 small .trade {
   top: -0.3rem;
-}
-
-h1.headline .trade,
-h2.headline .trade {
-  top: -0.85rem;
-}
-
-h3.headline .trade,
-h4.headline .trade {
-  top: -0.2rem;
-}
-
-.display-1 {
-  font-size: 6rem !important;
-}
-
-.display-2 {
-  font-size: 4rem !important;
 }
 
 h1,
@@ -73,48 +67,9 @@ h6.small {
   font-size: 80% !important;
 }
 
-.headline {
-  margin-bottom: 3rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08rem;
-
-  small {
-    color: $gray-500;
-    font-size: small;
-    display: block;
-    padding: 1rem 0;
-  }
-}
-
-.text-white {
-  .headline,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  a {
-    color: white !important;
-  }
-}
-
-.text-white a {
-  text-decoration: underline;
-}
-
 small,
 .small {
   font-size: 80%;
-}
-
-.headline.small {
-  margin-bottom: 1.8rem;
-}
-
-.headline.mb-0 {
-  margin-bottom: 0;
 }
 
 strong,
@@ -207,20 +162,4 @@ ul.stacking {
 
 .text-success-dark {
   color: theme-color-level('success', 4);
-}
-
-.headline a,
-h1 a,
-h2 a,
-h3 a {
-  color: $gray-700;
-  transition: 0.5s;
-}
-
-.headline a:hover,
-h1 a:hover,
-h2 a:hover,
-h3 a:hover {
-  color: $gray-500;
-  transition: 0.5s;
 }

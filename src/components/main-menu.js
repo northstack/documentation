@@ -15,10 +15,13 @@ class MainMenu extends React.Component {
 
 	render() {
 		return (
-			<Navbar className="side-nav" sticky="top" id="LeftNav">
-				<Nav activeKey={this.props.currentPage} className="flex-column">
-					{this.getMainMenuItems()}
-				</Nav>
+			<Navbar className="side-nav" expand="md" variant="dark" sticky="top" id="LeftNav">
+			<Navbar.Toggle id="leftnavtoggle" aria-controls="navbar-left" />
+				<Navbar.Collapse id="navbar-left">
+					<Nav activeKey={this.props.currentPage} className="flex-column">
+						{this.getMainMenuItems()}
+					</Nav>
+				</Navbar.Collapse>
 			</Navbar>
 		);
 	}

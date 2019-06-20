@@ -53,7 +53,6 @@ const Header = ({ siteTitle }) => (
 						/>
 					</svg> <span><i class="icon ion-ios-help-buoy"></i> DOCS</span>
 				</Navbar.Brand>
-				<Navbar.Toggle aria-controls="navbar-top" />
 				<Navbar.Collapse id="navbar-top" className="justify-content-end">
 					<Nav className="ml-auto pt-1">
 						{HeaderNavJson.map((menuItem, index) => (
