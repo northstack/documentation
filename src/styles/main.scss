@@ -1,7 +1,7 @@
 /* BRAND COLORS */
-$ns-primary: #438496;
-$ns-primary-dark-accent: #103040;
-$ns-primary-light-accent: #6f9ead;
+$ns-primary: #75add8;
+$ns-primary-dark-accent: darken($ns-primary,50);
+$ns-primary-light-accent: lighten($ns-primary,10);
 $ns-secondary: #4a7682;
 $ns-red: #c8004d;
 $ns-orange: #ff5831;
