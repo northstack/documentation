@@ -1,7 +1,7 @@
 /* BRAND COLORS */
 $ns-primary: #75add8;
-$ns-primary-dark-accent: darken($ns-primary,50);
-$ns-primary-light-accent: lighten($ns-primary,10);
+$ns-primary-dark-accent: darken($ns-primary, 50);
+$ns-primary-light-accent: lighten($ns-primary, 10);
 $ns-secondary: #4a7682;
 $ns-red: #c8004d;
 $ns-orange: #ff5831;
@@ -20,7 +20,6 @@ $gray-600: #6c757d !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
-
 
 $primary: $ns-primary;
 $secondary: $ns-secondary;
@@ -44,24 +43,24 @@ $gray-dark-1: $gray-700;
 $gray-dark-2: $gray-800;
 $gray-dark-3: $gray-900;
 
-$body-bg:                   #fff !default;
-$body-color:                $gray-700 !default;
+$body-bg: #fff !default;
+$body-color: $gray-700 !default;
 
-$link-color:                $primary !default;
-$link-decoration:           none !default;
-$link-hover-color:          darken($link-color, 15%) !default;
-$link-hover-decoration:     underline !default;
+$link-color: $primary !default;
+$link-decoration: none !default;
+$link-hover-color: darken($link-color, 15%) !default;
+$link-hover-decoration: underline !default;
 
-$font-family-sans-serif: 'Hind','Helvetica Neue', Arial, sans-serif !default;
-$font-family-monospace:  'SFMono-Regular', 'Menlo', Monaco, 'Consolas', 'Liberation Mono', 'Courier New', monospace !default;
-$font-family-base:       $font-family-sans-serif !default;
+$font-family-sans-serif: 'Hind', 'Helvetica Neue', Arial, sans-serif !default;
+$font-family-monospace: 'SFMono-Regular', 'Menlo', Monaco, 'Consolas', 'Liberation Mono', 'Courier New', monospace !default;
+$font-family-base: $font-family-sans-serif !default;
 $font-headlines: 'Montserrat', $font-family-sans-serif !default;
 
-$ionicons-font-path: "../../node_modules/ionicons/dist/fonts";
-@import "../../node_modules/ionicons/dist/scss/ionicons.scss";
+$ionicons-font-path: '../../node_modules/ionicons/dist/fonts';
+@import '../../node_modules/ionicons/dist/scss/ionicons.scss';
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 @import '../../node_modules/prismjs/themes/prism-okaidia.css';
-@import 'typeography.scss';
+@import 'typography.scss';
 @import 'navs.scss';
 @import 'articles.scss';
 
@@ -92,15 +91,15 @@ footer,
 }
 
 footer {
-	background-color: darken($ns-primary-dark-accent,10);
+	background-color: darken($ns-primary-dark-accent, 10);
 	padding: 1rem;
 	height: 75px;
 	@extend .d-block;
 
 	p {
 		color: $gray-300;
-		margin:0;
-		padding:0;
+		margin: 0;
+		padding: 0;
 		a {
 			color: $primary;
 		}
@@ -117,7 +116,7 @@ footer {
 
 .archive-children {
 	@include media-breakpoint-up(sm) {
-			padding: 0 2em;
+		padding: 0 2em;
 	}
 }
 
@@ -125,9 +124,9 @@ main .col-main-menu {
 	@extend .col-12;
 	@extend .col-md-2;
 	font-size: $font-size-sm;
-	border-top: 1px solid lighten($ns-primary-dark-accent,5);
-	border-bottom: 1px solid lighten($ns-primary-dark-accent,5);
-	background: darken($ns-primary-dark-accent,3%);
+	border-top: 1px solid lighten($ns-primary-dark-accent, 5);
+	border-bottom: 1px solid lighten($ns-primary-dark-accent, 5);
+	background: darken($ns-primary-dark-accent, 3%);
 }
 
 main .col-main-content {
@@ -136,7 +135,7 @@ main .col-main-content {
 	@extend .col-xl-8;
 	padding-bottom: 2rem;
 	min-height: 85vh;
-	box-shadow: inset 8px 0px 6px -6px rgba($ns-primary-dark-accent,.3);
+	box-shadow: inset 8px 0px 6px -6px rgba($ns-primary-dark-accent, 0.3);
 
 	article {
 		padding: 1rem 0;
