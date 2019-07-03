@@ -100,7 +100,7 @@ module.exports = {
 				name: `NorthStack Documentation`,
 				short_name: `NorthStack`,
 				start_url: `/`,
-				background_color: `#ff`,
+				background_color: `#fff`,
 				theme_color: `#1c3b4a`,
 				display: `standalone`,
 				icon: 'src/images/icons/northstack-flat-color-logomark-transparent.svg',
