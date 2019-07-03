@@ -30,12 +30,21 @@ const Layout = ({ children }) => (
 					<main className="container-fluid">{children}</main>
 				</div>
 				<footer className="stickBottom sitefooter d-flex">
-					<p>© {new Date().getFullYear()} {` `}
+					<p>
+						© {new Date().getFullYear()} {` `}
 						<a href="https://northstack.com">NorthStack</a>
 					</p>
-					<ul class="nav ml-2">
-						<li class="mr-2"><a href="https://github.com/northstack"><i class="ion ion-logo-github"></i></a></li>
-						<li><a href="https://twitter.com/gonorthstack"><i class="ion ion-logo-twitter"></i></a></li>
+					<ul className="nav ml-2">
+						<li className="mr-2">
+							<a href="https://github.com/northstack">
+								<i className="ion ion-logo-github" />
+							</a>
+						</li>
+						<li>
+							<a href="https://twitter.com/gonorthstack">
+								<i className="ion ion-logo-twitter" />
+							</a>
+						</li>
 					</ul>
 				</footer>
 			</>
