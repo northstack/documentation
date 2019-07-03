@@ -106,6 +106,15 @@ module.exports = {
 				icon: 'src/images/icons/northstack-flat-color-logomark-transparent.svg',
 			},
 		},
+		{
+			resolve: `gatsby-plugin-google-analytics`,
+			options: {
+				trackingId: `UA-220817-58`,
+				head: false,
+				anonymize: true,
+				respectDNT: true,
+			},
+		},
 		`gatsby-plugin-sitemap`,
 		{
 			resolve: `gatsby-plugin-canonical-urls`,
