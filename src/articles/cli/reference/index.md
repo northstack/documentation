@@ -22,6 +22,7 @@ The NorthStack CLI is a versitile tool that allows you to easily create and depl
   * [app:create](/cli/reference/app/create/)
   * [app:debug:launch-worker](/cli/reference/app/debug/launch-worker/)
   * [app:deploy](/cli/reference/app/deploy/)
+  * [app:fetch](/cli/reference/app/fetch/)
   * [app:info](/cli/reference/app/info/)
   * [app:list](/cli/reference/app/list/)
   * [app:localdev:logs](/cli/reference/app/localdev/logs/)
