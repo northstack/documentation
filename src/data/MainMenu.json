@@ -46,10 +46,6 @@
                 "link": "/cli/reference/",
                 "children": [
                     {
-                        "label": "_completion",
-                        "link": "/cli/reference/_completion/"
-                    },
-                    {
                         "label": "app",
                         "link": "/cli/reference/app/",
                         "children": [
