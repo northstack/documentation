@@ -62,6 +62,10 @@
                                 "link": "/cli/reference/app/deploy/"
                             },
                             {
+                                "label": "app:fetch",
+                                "link": "/cli/reference/app/fetch/"
+                            },
+                            {
                                 "label": "app:info",
                                 "link": "/cli/reference/app/info/"
                             },
