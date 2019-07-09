@@ -1,6 +1,6 @@
 ---
 title: "NorthStack CLI Commands: help"
-related: ["/cli/macos/", "/cli/reference/"]
+related: ["/cli/reference/list/", "/cli/reference/", "/cli/macos/"]
 description: "Displays help content for the NorthStack CLI."
 ---
 
