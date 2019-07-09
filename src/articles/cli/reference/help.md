@@ -34,7 +34,5 @@ Displays help content for the NorthStack CLI.
   Disable ANSI output
 * **-n, --no-interaction**  
   Do not ask any interactive question
-* **--no-time-limit**  
-  Prevent the command from ending at the regular time limit
 * **-v|vv|vvv, --verbose**  
   Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug)
