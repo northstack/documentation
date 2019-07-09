@@ -51,6 +51,7 @@ The NorthStack CLI is a versitile tool that allows you to easily create and depl
 * signup
   * [signup:reverify](/cli/reference/signup/reverify/)
   * [signup:verify](/cli/reference/signup/verify/)
+* [stats:get](/cli/reference/stats/get/)
 
 ## Options
 
