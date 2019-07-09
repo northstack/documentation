@@ -1,6 +1,6 @@
 ---
 title: "NorthStack CLI Command: app:fetch"
-related: ["/cli/"]
+related: ["/cli/reference/app/create/", "/cli/reference/app/list/", "/cli/reference/", "/cli/"]
 description: "Fetch info about a NorthStack app and download configs for local development."
 ---
 
