@@ -168,6 +168,16 @@
                         ]
                     },
                     {
+                        "label": "settings",
+                        "link": "/cli/reference/settings/",
+                        "children": [
+                            {
+                                "label": "settings:info",
+                                "link": "/cli/reference/settings/info/"
+                            }
+                        ]
+                    },
+                    {
                         "label": "signup",
                         "link": "/cli/reference/signup/",
                         "children": [

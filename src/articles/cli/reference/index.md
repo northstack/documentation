@@ -47,6 +47,7 @@ The NorthStack CLI is a versitile tool that allows you to easily create and depl
   * [secrets:list](/cli/reference/secrets/list/)
   * [secrets:remove](/cli/reference/secrets/remove/)
   * [secrets:set](/cli/reference/secrets/set/)
+* [settings:info](/cli/reference/settings/info/)
 * signup
   * [signup:reverify](/cli/reference/signup/reverify/)
   * [signup:verify](/cli/reference/signup/verify/)
