@@ -138,6 +138,10 @@
                                 "link": "/cli/reference/org/user/",
                                 "children": [
                                     {
+                                        "label": "org:user:add",
+                                        "link": "/cli/reference/org/user/add/"
+                                    },
+                                    {
                                         "label": "org:user:list",
                                         "link": "/cli/reference/org/user/list/"
                                     }
