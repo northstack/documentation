@@ -15,7 +15,6 @@ The NorthStack CLI is a versitile tool that allows you to easily create and depl
 
 ## Commands
 
-* [_completion](/cli/reference/_completion/)
 * [help](/cli/reference/help/)
 * [list](/cli/reference/list/)
 * [signup](/cli/reference/signup/)
