@@ -1,8 +1,8 @@
 ---
-title: "NorthStack CLI app:debug Commands"
-related: ["/cli/"]
+title: 'NorthStack CLI app:debug Commands'
+related: ['/cli/']
 description: "In this section, you'll find commands that can be used for debugging your NorthStack apps."
-type: "archive"
+type: 'archive'
 ---
 
 # app:debug

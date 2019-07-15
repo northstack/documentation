@@ -1,8 +1,8 @@
 ---
-title: "NorthStack CLI auth Commands"
-related: ["/cli/"]
+title: 'NorthStack CLI auth Commands'
+related: ['/cli/']
 description: "In this section, you'll find commands for managing authentication in the NorthStack CLI."
-type: "archive"
+type: 'archive'
 ---
 
 # auth

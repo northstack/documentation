@@ -1,7 +1,7 @@
 ---
-title: "NorthStack CLI Command: secrets:set"
-related: ["/cli/"]
-description: "Sets an app secret."
+title: 'NorthStack CLI Command: secrets:set'
+related: ['/cli/']
+description: 'Sets an app secret.'
 ---
 
 # secrets:set
@@ -9,42 +9,47 @@ description: "Sets an app secret."
 Sets an app secret.
 
 ## Usage
-`northstack secrets:set [options] [--] <key> <value> [<environment>]`
+
+`secrets:set [options] [--] <name> <key> <value> [<environment>]`
 
 ## Arguments
-* **key**
-* **value**
-* **environment**  
-  Environment [default: "dev"]
+
+-   **name**  
+    The app name
+-   **key**  
+    Secret key used for retrieving the secret later
+-   **value**  
+    The value to set
+-   **environment**  
+    Environment [default: "dev"]
 
 ## Options
-* **--authToken=AUTHTOKEN**  
-  Access Token
-* **--authClientId=AUTHCLIENTID**  
-  OAuth Client ID [default: 2]
-* **--authClientSecret=AUTHCLIENTSECRET**  
-  Client Secret
-* **--authUsername=AUTHUSERNAME**  
-  Username
-* **--authPassword=AUTHPASSWORD**  
-  Password
-* **--authMfa=AUTHMFA**  
-  MFA Code
-* **--authScope=AUTHSCOPE**  
-  Scopes (multiple values allowed)
-* **-h, --help**  
-  Display this help message
-* **-q, --quiet**  
-  Do not output any message
-* **-V, --version**  
-  Display this application version
-* **--ansi**  
-  Force ANSI output
-* **--no-ansi**  
-  Disable ANSI output
-* **-n, --no-interaction**  
-  Do not ask any interactive question
-* **--no-time-limit**  
-  Prevent the command from ending at the regular time limit
-* **-v|vv|vvv, --verbose**  
-  Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug)
+
+-   **--authToken=AUTHTOKEN**  
+    Access Token
+-   **--authClientId=AUTHCLIENTID**  
+    OAuth Client ID [default: 2]
+-   **--authClientSecret=AUTHCLIENTSECRET**  
+    Client Secret
+-   **--authUsername=AUTHUSERNAME**  
+    Username
+-   **--authPassword=AUTHPASSWORD**  
+    Password
+-   **--authMfa=AUTHMFA**  
+    MFA Code
+-   **--authScope=AUTHSCOPE**  
+    Scopes (multiple values allowed)
+-   **-h, --help**  
+    Display this help message
+-   **-q, --quiet**  
+    Do not output any message
+-   **-V, --version**  
+    Display this application version
+-   **--ansi**  
+    Force ANSI output
+-   **--no-ansi**  
+    Disable ANSI output
+-   **-n, --no-interaction**  
+    Do not ask any interactive question
+-   **-v|vv|vvv, --verbose**  
+    Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug)
