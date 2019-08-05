@@ -10,7 +10,9 @@ Did you just make a new WordPress app on NorthStack and already forgot your admi
 
 ## Recovering Initial Admin Passwords
 
-If you didn't set a password when you created your WordPress app on NorthStack, a password will automatically be created for you and stored within an app secret. To view the contents any stored secrets for your app, you can use the secrets:list command like this:
+If you didn't set a password when you created your WordPress app on NorthStack, a password will automatically be created for you and stored within an app secret.
+
+To view the contents any stored secrets for your app, you can use the secrets:list command like this:
 
 ```shell
 northstack secrets:list MyAppName --show
