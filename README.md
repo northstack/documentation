@@ -1,5 +1,7 @@
 The NorthStack Docs site.
 
+Built with Gatsby and hosted on [NorthStack](https://northstack.com). Check it out live at [http://docs.northstack.com](http://docs.northstack.com)
+
 ## Requirements
 * NPM
 * Gatsby CLI
