@@ -126,12 +126,13 @@ class IndexPage extends React.Component {
 							</section>
 							<h2>Quick Start Guide</h2>
 							<section className="tutorial-steps home-quickstart">
-								<h3>Requirements</h3>
+								<p>
+									<strong>Requirements</strong>
+								</p>
 								<ul>
 									<li>MacOS/Linux (Windows support is coming soon)</li>
 									<li>
-										<a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Git </a>{' '}
-										(preinstalled on MacOS)
+										<a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Git</a>
 									</li>
 									<li>
 										<a href="https://docs.docker.com/install/">Docker</a>
@@ -141,7 +142,9 @@ class IndexPage extends React.Component {
 									</li>
 									<li>A NorthStack account</li>
 								</ul>
-								<h3>Instructions</h3>
+								<p>
+									<strong>Quick Start Steps</strong>
+								</p>
 								<ol>
 									<li>
 										<p>Install the NorthStack CLI:</p>
