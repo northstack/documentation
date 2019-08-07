@@ -15,7 +15,11 @@ const Template = ({ data }) => (
 		<SEO title={data.currentArticle.frontmatter.title} description={data.currentArticle.frontmatter.description} />
 		<Row>
 			<LeftColumn currentSlug={data.currentArticle.fields.slug} />
-			<MainColumn markup={data.currentArticle.html} template="article" />
+			<MainColumn
+				markup={data.currentArticle.html}
+				template="article"
+				relativeFilePath={data.currentArticle.parent.relativePath}
+			/>
 			<RightColumn
 				tableOfContentsMarkup={data.currentArticle.tableOfContents}
 				relatedArticles={data.relatedArticles}
@@ -41,6 +45,11 @@ export const pageQuery = graphql`
 			headings {
 				value
 				depth
+			}
+			parent {
+				... on File {
+					relativePath
+				}
 			}
 		}
 		relatedArticles: allMarkdownRemark(filter: { fields: { slug: { in: $related } } }) {
