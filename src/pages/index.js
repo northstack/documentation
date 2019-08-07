@@ -3,7 +3,6 @@ import { Link } from 'gatsby';
 
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-//import Container from 'react-bootstrap/Container';
 import CardDeck from 'react-bootstrap/CardDeck';
 import Card from 'react-bootstrap/Card';
 
