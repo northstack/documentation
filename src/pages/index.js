@@ -8,11 +8,13 @@ import Card from 'react-bootstrap/Card';
 
 import Layout from '../components/layout';
 import LeftColumn from '../components/columns/left';
+import SEO from '../components/seo';
 
 class IndexPage extends React.Component {
 	render() {
 		return (
 			<Layout>
+				<SEO />
 				<Row className="">
 					<LeftColumn />
 					<Col xs={true} className="col-main-content py-4">
