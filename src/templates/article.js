@@ -12,7 +12,11 @@ import SEO from '../components/seo';
 
 const Template = ({ data }) => (
 	<Layout>
-		<SEO title={data.currentArticle.frontmatter.title} description={data.currentArticle.frontmatter.description} />
+		<SEO
+			title={data.currentArticle.frontmatter.title}
+			description={data.currentArticle.frontmatter.description}
+			ogType="article"
+		/>
 		<Row>
 			<LeftColumn currentSlug={data.currentArticle.fields.slug} />
 			<MainColumn markup={data.currentArticle.html} template="article" />
