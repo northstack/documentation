@@ -20,7 +20,7 @@ const Template = ({ data }) => (
 );
 
 export const pageQuery = graphql`
-	query($path: String!, $archiveRegex: String) {
+	query($path: String!) {
 		currentArticle: markdownRemark(fields: { slug: { eq: $path } }) {
 			html
 			tableOfContents
@@ -33,7 +33,11 @@ export const pageQuery = graphql`
 				slug
 			}
 		}
-		archiveChildren: allMarkdownRemark(filter: { fields: { slug: { regex: $archiveRegex } } }) {
+		archiveChildren: allMarkdownRemark(
+			filter: { fields: { archivePath: { eq: $path } } }
+			sort: { fields: frontmatter___title }
+			limit: 100
+		) {
 			edges {
 				node {
 					id

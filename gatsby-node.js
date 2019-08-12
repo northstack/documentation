@@ -5,6 +5,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 	const { createNodeField } = actions;
 
 	if (node.internal.type === 'MarkdownRemark') {
+		const articleFileNode = getNode(node.parent);
 		const relativeFilePath = createFilePath({
 			node,
 			getNode,
@@ -14,6 +15,12 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 			node,
 			name: 'slug',
 			value: `${relativeFilePath}`,
+		});
+
+		createNodeField({
+			node,
+			name: 'archivePath',
+			value: `/${articleFileNode.relativeDirectory}/`,
 		});
 
 		if (!Array.isArray(node.frontmatter.related)) {
@@ -37,7 +44,7 @@ exports.createPages = ({ actions, graphql }) => {
 
 	return graphql(`
 		{
-			allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___title] }, limit: 1000) {
+			allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___title] }, limit: 10000) {
 				edges {
 					node {
 						frontmatter {
