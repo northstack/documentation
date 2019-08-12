@@ -1,9 +1,10 @@
 ---
 title: "Adding Share Paths to WordPress Apps"
 description: "Here's how to share paths between WordPress apps."
+related: ["/frameworks/wordpress/getting-started/", "/frameworks/wordpress/", "/frameworks/wordpress/changing-wordpress-versions/"]
 ---
 
-# Adding Share Paths to WordPress Apps
+# Adding Shared Paths to WordPress Apps
 
 Synchronizing content such as uploads and cache across multiple environments can sometimes become quite frustrating, especially if you have a significant amount of files. We know your pain, which is why NorthStack allows you to set individual directories to be shared across all of your app's environments! Here's how to do it:
 
