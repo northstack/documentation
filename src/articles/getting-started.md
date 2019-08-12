@@ -1,7 +1,7 @@
 ---
 title: "Getting Started"
 path: "/getting-started/"
-related: ["/getting-started/"]
+related: ["/general/pointing-domains/", "/general/changing-domains/", "/general/support/"]
 description: "Here's how to get started using NorthStack to build and deploy static apps."
 ---
 
@@ -73,3 +73,9 @@ northstack app:deploy "My Deploy Message" MyAppName dev
 As you see from the example above, just replace *MyAppName* with the name of the app that you want to deploy, and *dev* with the environment that you want to deploy to. It's as simple as that!
 
 Once the build and deployment is complete, your app is live!
+
+## Pointing Your Domains
+
+While you can always use your assigned development URLs for each environment, you'll probably want to point a domain to your new NorthStack app.
+
+To point a domain, use your preferred DNS service to point a CNAME record to your test URL. For complete information on pointing a domain to a NorthStack serverless app, see our article on [pointing domains](/general/pointing-domains/)
