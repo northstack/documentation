@@ -277,7 +277,33 @@
     },
     {
         "label": "General",
-        "link": "/general/"
+        "link": "/general/",
+        "children": [
+            {
+                "label": "Adding Shared Paths",
+                "link": "/general/adding-shared-paths/"
+            },
+            {
+                "label": "Changing Domains",
+                "link": "/general/changing-domains/"
+            },
+            {
+                "label": "Setting Up Let's Encrypt",
+                "link": "/general/lets-encrypt/"
+            },
+            {
+                "label": "Pointing Domains",
+                "link": "/general/pointing-domains/"
+            },
+            {
+                "label": "Getting Support",
+                "link": "/general/support/"
+            },
+            {
+                "label": "Understanding Version Constraints",
+                "link": "/general/version-constraints/"
+            }
+        ]
     },
     {
         "label": "Integrations",
