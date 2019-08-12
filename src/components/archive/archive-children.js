@@ -59,7 +59,6 @@ class ArchiveChildren extends React.Component {
 
 	render() {
 		if (this.archiveHasChildren()) {
-			console.log(this.getArchiveChildren());
 			return (
 				<div className="archive-children">
 					<Card>
