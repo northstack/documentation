@@ -1,6 +1,7 @@
 ---
 title: "Understanding Version Constraints"
 description: "When doing things like changing your WordPress version in NorthStack, you might notice how the versioning is defined. In this article, we'll give you a quick rundown of how versioning works."
+related: ["/general/", "/frameworks/wordpress/changing-wordpress-versions/"]
 ---
 
 # Understanding Version Constraints

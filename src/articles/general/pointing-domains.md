@@ -1,6 +1,7 @@
 ---
 title: "Pointing Domains"
 description: "When you deploy your app, NorthStack provides a separate hostname for each of your environments, but most of the time, you'll want to point a domain to your app. Here's how to point your domain to your NorthStack app."
+related: ["/general/changing-domains/", "/general/"]
 ---
 
 # Pointing Domains

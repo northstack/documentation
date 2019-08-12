@@ -1,6 +1,7 @@
 ---
 title: "Changing Domains"
 description: "Want to change the domain that your NorthStack app is using? Prefer a fancier subdomain for your development sites? In this article, we'll show you how to change your domain details inside your NorthStack app."
+related: ["/genera/pointing-domains/", "/general/", "/general/support/"]
 ---
 
 # Changing Domains on a NorthStack App

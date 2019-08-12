@@ -1,6 +1,7 @@
 ---
 title: "Getting Support"
 description: "Here's how to get support for NorthStack."
+related: ["/getting-started/", "/general/", "/faqs/"]
 ---
 
 # Getting Support
