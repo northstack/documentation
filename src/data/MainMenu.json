@@ -264,6 +264,10 @@
                         ]
                     },
                     {
+                        "label": "Adding Shared Paths",
+                        "link": "/frameworks/wordpress/adding-shared-paths/"
+                    },
+                    {
                         "label": "Changing WordPress Versions",
                         "link": "/frameworks/wordpress/changing-wordpress-version/"
                     },
@@ -279,10 +283,6 @@
         "label": "General",
         "link": "/general/",
         "children": [
-            {
-                "label": "Adding Shared Paths",
-                "link": "/general/adding-shared-paths/"
-            },
             {
                 "label": "Changing Domains",
                 "link": "/general/changing-domains/"
