@@ -66,6 +66,28 @@ module.exports = {
 				],
 			},
 		},
+		{
+			resolve: `gatsby-plugin-lunr`,
+			options: {
+				languages: [
+					{
+						name: `en`,
+					},
+				],
+				fields: [
+					{ name: `title`, store: true, attributes: { boost: 20 } },
+					{ name: `content`, store: true },
+					{ name: `url`, store: true },
+				],
+				resolvers: {
+					MarkdownRemark: {
+						title: (node) => node.frontmatter.title,
+						content: (node) => node.rawMarkdownBody,
+						url: (node) => node.fields.slug,
+					},
+				},
+			},
+		},
 		`gatsby-transformer-json`,
 		{
 			resolve: `gatsby-source-filesystem`,
