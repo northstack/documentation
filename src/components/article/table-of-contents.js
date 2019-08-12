@@ -3,7 +3,7 @@ import React from 'react';
 const minHeaders = 3;
 
 const ArticleTableOfContents = ({ headings, markup }) => {
-	if (headings.length > minHeaders) {
+	if (typeof headings != 'undefined' && headings.length > minHeaders) {
 		return (
 			<>
 				<h5>In This Article</h5>
