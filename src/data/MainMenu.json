@@ -196,6 +196,16 @@
         ]
     },
     {
+        "label": "NorthStack API",
+        "link": "/api/",
+        "children": [
+            {
+                "label": "Getting Started Guide",
+                "link": "/api/getting-started/"
+            }
+        ]
+    },
+    {
         "label": "FAQs",
         "link": "/faqs/"
     },
